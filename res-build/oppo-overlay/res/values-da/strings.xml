@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="android_upgrading_title">ColorOS opgraderes</string>
+    <string name="android_upgrading_apk" msgid="7904042682111526169">"Optimerer app <xliff:g id="NUMBER_0">%1$d</xliff:g> ud af <xliff:g id="NUMBER_1">%2$d</xliff:g>"</string>
+    <string name="android_upgrading_starting_apps" msgid="451464516346926713">"Sådan åbner du dine apps"</string>
+    <string name="android_upgrading_complete" msgid="1405954754112999229">"Gennemfører start"</string>
+</resources>

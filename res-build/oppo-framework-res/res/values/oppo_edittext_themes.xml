@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_edittext_themes.xml.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: EditText's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/10/12
+** Author: Fu Liangjing@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Fu Liangjing  	2010/10/12  create
+** *****************************************************************************
+*/
+-->
+
+<resources>
+	
+    <color name="oppo_edittext_default_highlighted">#662ECE71</color>
+    <dimen name="oppo_textview_cursorOffset">1dip</dimen>
+</resources>

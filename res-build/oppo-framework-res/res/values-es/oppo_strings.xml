@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">Modificar permisos</string>
+    <string name="oppo_modify_pkg_perms_detail">Debes ir a Ajustes→General→Aplicaciones para modificar los permisos.</string>
+    <string name="oppo_usb_selection">Seleccionar para cambiar los ajustes de USB</string>
+    <string name="oppo_usb_charge">Sólo cargando</string>
+    <string name="oppo_usb_storage">Almacenamiento del dispositivo</string>
+    <string name="oppo_usb_mtp">Dispositivo multimedia (MTP)</string>
+    <string name="progress_erasing_phone" product="default">Formatear almacenamiento del teléfono...</string>
+    <string name="format_error_phone" product="default">Fallo al formatear el almacenamiento del teléfono.</string>
+    <string name="media_bad_removal_phone">El almacenamiento del teléfono fue extraído antes de ser desmontado.</string>
+    <string name="media_checking_phone" product="default">El almacenamiento del teléfono está siendo comprobado actualmente.</string>
+    <string name="media_shared_phone" product="default">Espacio de almacenamiento del teléfono en uso actualmente por un ordenador.</string>
+    <string name="status_silent">Silencio</string>
+    <string name="status_brightness">Brillo</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Modo Avión</string>
+    <string name="status_hotspot">Punto de acceso Wi-Fi</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">AutoSync</string>
+    <string name="oppo_statusbar_key_swmgr">Gestor de programas</string>
+    <string name="statusbar_key_bt">Bluetooth</string>
+    <string name="oppo_rename_dialog_title">Renombrar</string>
+    <string name="oppo_rename_dialog_btn_ok">OK</string>
+    <string name="oppo_rename_dialog_btn_cancel">Cancelar</string>
+    <string name="oppo_lunar_calendar_text">Calendario lunar</string>
+    <string name="oppo_solar_calendar_text">Calendario occidental</string>
+    <string name="oppo_selecttext">Seleccionar</string>
+    <string name="oppo_whichApplication">Completar acción utilizando</string>
+    <string name="oppo_alwaysUse">Usar esto como opción por defecto</string>
+    <string name="oppo_power_shutdown_text">Apagar</string>
+    <string name="oppo_power_vibrate_text">Vibración</string>
+    <string name="oppo_power_slient_text">Silencio</string>
+    <string name="oppo_power_airplanemode_text">Modo Avión</string>
+    <string name="oppo_power_ring_text">Sonar</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">Smartone-Vodafone</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_battery_charge_soc_fall">El consumo eléctrico actual es demasiado elevado, prueba a cerrar las aplicaciones que actualmente esten consumiendo mucha energía!</string>
+    <string name="wifi_p2p_noncuncurrency_message">Iniciar Wi-Fi Direct. Se desconectará la conexión Wi-Fi.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">Se desonectará cualquier conexión Wi-Fi existente.</string>
+    <string name="oppo_permission_security_title">Advertencia de seguridad</string>
+    <string name="oppo_permission_security_label">está intentando</string>
+    <string name="oppo_permission_choice_label">Bu seçimi hatırla</string>
+    <string name="oppo_reject_text">Denegar</string>
+    <string name="oppo_allow_text">Permitir</string>
+    <string name="action_mode_done">Listo</string>
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

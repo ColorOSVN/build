@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">تعديل أذونات</string>
+    <string name="oppo_modify_pkg_perms_detail">الذهاب الى إعدادات - العام - تطبيقات لتعديل الأذونات.</string>
+    <string name="oppo_usb_selection">اختر لتغيير إعدادات USB</string>
+    <string name="oppo_usb_charge">شحن فقط</string>
+    <string name="oppo_usb_storage">جهاز تخزين</string>
+    <string name="oppo_usb_mtp">جهاز الوسائط (MTP)</string>
+    <string name="oppo_statusbar_key_swmgr">مدير البرامج</string>
+
+    <string name="oppo_rename_dialog_title">إعادة تسمية</string>
+    <string name="oppo_rename_dialog_btn_ok">حسنا</string>
+    <string name="oppo_rename_dialog_btn_cancel">إلغاء</string>
+    <string name="oppo_lunar_calendar_text">التقويم القمري</string>
+    <string name="oppo_solar_calendar_text">التقويم الغربي</string>
+    <string name="oppo_selecttext">حدد</string>
+    <string name="oppo_whichApplication">إكمال الإجراء باستخدام</string>
+    <string name="oppo_alwaysUse">استخدام هذا كخاصية افتراضية</string>
+    <string name="oppo_power_shutdown_text">إغلاق</string>
+    <string name="oppo_power_vibrate_text">الاهتزاز</string>
+    <string name="oppo_power_slient_text">صامت</string>
+    <string name="oppo_power_airplanemode_text">طائرة</string>
+    <string name="oppo_power_ring_text">النغمة</string>
+    <string name="oppo_power_reboot_text">إعادة التشغيل</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">سمارتفون-فودافون</string>
+    <string name="mmcmnc45410">العالم الجديد</string>
+    <string name="mmcmnc45412">CMCC الشعوب</string>
+    <string name="mmcmnc45415">سمارتون موبايل األوامر</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">سمارتون</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3.000000</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">تايوان موبايل</string>
+    <string name="mmcmnc46699">ترانس</string>
+    <string name="oppo_permission_security_title">تحذير امني</string>
+    <string name="oppo_permission_security_label">يحاول</string>
+    <string name="oppo_permission_choice_label">تذكر اختياري</string>
+    <string name="oppo_reject_text">أرفض</string>
+    <string name="oppo_allow_text">أسمح</string>
+    <string name="action_mode_done">تم</string>
+    <string name="oppo_permission_settings_prompt">يرجى اعداد الخيارات في \"الإعدادات-الإعدادات العامة-الأمان-مراقب الأذونات\"</string>
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

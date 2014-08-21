@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/********************************************************************************
+ ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
+ ** VENDOR_EDIT, All rights reserved.
+ ** 
+ ** File: - oppo_tabwidget_themes.xml
+ ** Description: 
+ **     OppoTabWidget's params used to customize OPPO GUI
+ **     
+ ** Version: 1.0
+ ** Date: 2010-09-10
+ ** Author: Zhaohui.Hu@Plf.Framework.SDK
+ ** 
+ ** =============================== Revision History: ============================
+ ** <author>                        <data>       <version>   <desc>
+ ** ==============================================================================
+ ** Zhaohui.Hu@Plf.Framework.SDK    2010-09-10   1.0         Create this moudle
+ ********************************************************************************/
+-->
+<resources>
+
+    <!-- dimen -->
+    <dimen name="oppo_tabwidget_default_text_size">15sp</dimen>
+    <dimen name="oppo_tabwidget_default_text_size_landscape">15sp</dimen>
+    <!-- in landscape mode, consider this value into count for adjust the icon and label position. -->
+    <dimen name="oppo_tabwidget_top_shadow_height">0dip</dimen>
+    <!-- tab has only text -->
+    <dimen name="oppo_tabwidget_only_text_size">18sp</dimen>
+
+</resources>

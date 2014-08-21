@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">16242</string>
+    <string name="oppo_modify_pkg_perms_detail">16243</string>
+    <string name="oppo_usb_selection">16251</string>
+    <string name="oppo_usb_charge">16252</string>
+    <string name="oppo_usb_storage">16254</string>
+    <string name="oppo_usb_mtp">16258</string>
+    <string name="oppo_statusbar_key_swmgr">16279</string>
+
+    <string name="oppo_rename_dialog_title">16284</string>
+    <string name="oppo_rename_dialog_btn_ok">16285</string>
+    <string name="oppo_rename_dialog_btn_cancel">16286</string>
+    <string name="oppo_lunar_calendar_text">16287</string>
+    <string name="oppo_solar_calendar_text">16288</string>
+    <string name="oppo_selecttext">16289</string>
+    <string name="oppo_whichApplication">16292</string>
+    <string name="oppo_alwaysUse">16293</string>
+    <string name="oppo_power_shutdown_text">16294</string>
+    <string name="oppo_power_vibrate_text">16295</string>
+    <string name="oppo_power_slient_text">16296</string>
+    <string name="oppo_power_airplanemode_text">16297</string>
+    <string name="oppo_power_ring_text">16298</string>
+    <string name="oppo_power_reboot_text">16299</string>
+    <string name="mmcmnc46001">16300</string>
+    <string name="mmcmnc46000">16301</string>
+    <string name="mmcmnc46002">16302</string>
+    <string name="mmcmnc45406">16303</string>
+    <string name="mmcmnc45410">16304</string>
+    <string name="mmcmnc45412">16305</string>
+    <string name="mmcmnc45415">16306</string>
+    <string name="mmcmnc45416">16307</string>
+    <string name="mmcmnc45419">16308</string>
+    <string name="mmcmnc45500">16309</string>
+    <string name="mmcmnc45501">16310</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">16312</string>
+    <string name="mmcmnc45505">16313</string>
+    <string name="mmcmnc46601">16314</string>
+    <string name="mmcmnc46688">16315</string>
+    <string name="mmcmnc46689">16316</string>
+    <string name="mmcmnc46692">16317</string>
+    <string name="mmcmnc46693">16318</string>
+    <string name="mmcmnc46697">16319</string>
+    <string name="mmcmnc46699">16320</string>
+    <string name="oppo_battery_charge_soc_fall">16334</string>
+    <string name="oppo_permission_security_title">16344</string>
+    <string name="oppo_permission_security_label">16345</string>
+    <string name="oppo_permission_settings_prompt">16346</string>
+    <string name="oppo_permission_choice_label">"Deze keuze onthouden"</string>
+    <string name="oppo_reject_text">16348</string>
+    <string name="oppo_allow_text">16349</string>
+    <string name="action_mode_done">16350</string>
+    <string name="oppo_wday_year_month_day" translatable="false">20363 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_wday_year_day_month" translatable="false">20364 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_wday_month_day_year" translatable="false">20365 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_wday_month_year_day" translatable="false">20366 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_wday_day_month_year" translatable="false">20367 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_year_month_day_wday" translatable="false">20369 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_year_day_month_wday" translatable="false">20370 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_month_day_year_wday" translatable="false">20371 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_month_year_day_wday" translatable="false">20372 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_day_month_year_wday" translatable="false">20373 %1$s  %2$s %3$s %4$s</string>
+    <string name="oppo_day_year_month_wday" translatable="false">20374%1$s  %2$s %3$s %4$s</string>
+</resources>

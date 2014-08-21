@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+
+
+
+    <string name="oppo_lunar_calendar_text">Lunar calendar</string>
+    <string name="oppo_solar_calendar_text">Solar calendar</string>
+    <string name="oppo_touchsearch_dot">•</string>
+    <string name="oppo_touchsearch_side_keys_prefix">oppo_</string>
+
+    <string name="oppo_usb_charge">Only Charging</string>
+    <string name="oppo_usb_storage">Storage device</string>
+    <string name="oppo_usb_selection">Please select to change USB setting</string>
+    <string name="oppo_usb_mtp">Media device (MTP)</string>
+    
+    <string name="oppo_rename_dialog_title">Rename</string>
+    <string name="oppo_rename_dialog_btn_ok">OK</string>
+    <string name="oppo_rename_dialog_btn_cancel">Cancel</string>
+
+
+    <string name="oppo_modify_pkg_perms">Modify permissions</string>
+    <string name="oppo_modify_pkg_perms_detail">Goto Settings→Normal→ManageApplication, modify permissions!</string>
+
+    <string name="oppo_selecttext">Select</string>
+    <string name="oppo_wifi_tether_configure_ssid_default" translatable="false">OPPO T29</string>
+
+    <!-- Text displayed when the recipientedittextview is not focused. Displays the total number of recipients since the field is shrunk to just display a portion -->
+    <string name="oppo_more_string"> more...</string>
+    <!-- Text displayed when there are remote directories not returning results.
+         [CHAR LIMIT=50] -->
+    
+
+    <!--yaolang add for global actions -->
+    <string name="oppo_power_shutdown_text">Power off</string>
+    <string name="oppo_power_vibrate_text">Vibrate</string>
+    <string name="oppo_power_slient_text">Silence</string>
+    <string name="oppo_power_airplanemode_text">Flight</string>
+    <string name="oppo_power_ring_text">Ring</string>
+    <string name="oppo_power_reboot_text">Reboot</string>
+    <string name="oppo_volume_system_description">System volume</string>
+    <!--yaolang add end -->
+
+    <!-- add begin by zengzhigang 2011-03-09 for english and chinese china display -->
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc46003">CTCC</string>
+	  <string name="mmcmnc46007">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">3</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2013/06/08,
+          add begin by wuyisheng 2013-02-04 for resovle russia plmn name -->
+    <string name="mmcmnc25001">MTS RUS</string>
+    <string name="mmcmnc25002">MegaFon</string>
+    <string name="mmcmnc25003">NCC</string>
+    <string name="mmcmnc25005">ETK</string>
+    <string name="mmcmnc25007">SMARTS</string>
+    <string name="mmcmnc25012">Baykalwstern</string>
+    <string name="mmcmnc25014">SMARTS</string>
+    <string name="mmcmnc25016">NTC</string>
+    <string name="mmcmnc25017">Utel</string>
+    <string name="mmcmnc25019">INDIGO</string>
+    <string name="mmcmnc25020">Tele2</string>
+    <string name="mmcmnc25023">Mobicom</string>
+    <string name="mmcmnc25039">Utel</string>
+    <string name="mmcmnc25099">Beeline</string>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle vietnam plmn name -->
+    <string name="mmcmnc45201">VN MOBIFONE</string>
+    <string name="mmcmnc45202">VINAPHONE</string>
+    <string name="mmcmnc45204">VIETTEL</string>
+    <string name="mmcmnc45205">Vietnamobile</string>
+    <string name="mmcmnc45207">Beeline VN</string>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Indonesia plmn name -->
+    <string name="mmcmnc51001">INDOSAT</string>
+    <string name="mmcmnc51008">AXIS</string>
+    <string name="mmcmnc51010">TELKOMSEL</string>
+    <string name="mmcmnc51011">XL Axiata</string>
+    <string name="mmcmnc51089">3</string>
+<!-- #endif VENDOR_EDIT-->   
+    
+
+    <string name="oppo_battery_waring_subtitle">Warning:</string>
+    
+    <string name="oppo_permission_security_title">Security Warning</string>
+    <string name="oppo_permission_security_label">" is trying to "</string>
+    <string name="oppo_permission_settings_prompt">You can set in “Information security”</string>
+    <string name="oppo_permission_choice_label">Do not ask again</string>
+    <string name="oppo_reject_text">Reject</string>
+    <string name="oppo_allow_text">Allow</string>
+    
+ <!-- #ifdef VENDOR_EDIT -->
+ <!-- Jifeng.Tan@EXP.MidWare.MidWare , 2012/12/12, Added for thailand calendar support -->
+    <string name="oppo_wday_year_month_day" translatable="false">"%s, %s %s %s"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%s, %s %s %s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%s, %s %s, %s"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%s, %s %s %s"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%s, %s %s %s"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%s, %s %s %s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%s %s, %s, %s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%s %s %s, %s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%s %s %s, %s"</string>
+    <!-- #endif VENDOR_EDIT-->
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- MingLu.Tu@Exp.DataComm.Contacts, 2013/05/24, Add for [area option of IM] -->
+    <!--Russian-->
+    <string name="imProtocolMail">Mail.ru Agent</string>
+    <string name="imProtocolQip">QIP</string>
+    <!--Vietnam-->
+    <string name="imProtocolViber">Viber</string>
+    <string name="imProtocolWechat">Wechat</string>
+    <!--Indonesia-->
+    <string name="imProtocolWhatsapp">Whatsapp</string>
+    <string name="imProtocolFBM">FBM</string>
+<!-- #endif VENDOR_EDIT -->
+    <!-- JinPeng@Plf.Framework.SDK, 2013/08/03, Add for loading box -->
+    <string name="oppo_loading">Loading......</string>
+
+    <string name="oppo_edittext_search">Search</string>
+    <string name="oppo_edittext_IME">IME</string>
+    <!-- Jianhui.Yu@Plf.SDK, 2013-12-23 : Add for Unified Volume Control -->
+    <string name="oppo_volume_unified_control">Unified control sound volume</string>
+    <string name="oppo_resolver_ask_no_more">Don\'t ask again</string>
+    
+</resources>

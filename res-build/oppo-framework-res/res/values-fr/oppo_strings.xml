@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">Modifier les autorisations</string>
+    <string name="oppo_modify_pkg_perms_detail">Allez dans Paramètres→Général→Application pour modifier les autorisations</string>
+    <string name="oppo_usb_selection">Veuillez sélectionner pour modifier le paramètrage USB</string>
+    <string name="oppo_usb_charge">Charge uniquement</string>
+    <string name="oppo_usb_storage">Périphérique de stockage</string>
+    <string name="oppo_usb_mtp">Périphérique multimédia (MTP)</string>
+    <string name="status_silent">Silencieux</string>
+    <string name="status_brightness">Luminosité</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Mode Avion</string>
+    <string name="status_hotspot">Point d\'accès Wi-Fi</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">Synchronisation automatique</string>
+    <string name="oppo_rename_dialog_title">Renommer</string>
+    <string name="oppo_rename_dialog_btn_ok">OK</string>
+    <string name="oppo_rename_dialog_btn_cancel">Annuler</string>
+    <string name="oppo_lunar_calendar_text">Calendrier lunaire</string>
+    <string name="oppo_solar_calendar_text">Calendrier grégorien</string>
+    <string name="oppo_selecttext">Sélectionner</string>
+    <string name="oppo_power_shutdown_text">Arrêt</string>
+    <string name="oppo_power_slient_text">Silencieux</string>
+    <string name="oppo_power_airplanemode_text">Avion</string>
+    <string name="oppo_power_ring_text">Son</string>
+    <string name="oppo_power_reboot_text">Redémarrer</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_permission_security_title">Avertissement de sécurité</string>
+    <string name="oppo_permission_security_label">" tente de "</string>
+    <string name="oppo_permission_choice_label">تذكر هذا الاختيار</string>
+    <string name="oppo_reject_text">Rejeter</string>
+    <string name="oppo_allow_text">Autoriser</string>
+    <string name="action_mode_done">OK</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+</resources>

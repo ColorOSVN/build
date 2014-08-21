@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+  <item type="id" name="show_more_icon" />
+  <item type="id" name="show_more_text" />
+  
+  <item type="id" name="perm_icon" />
+  <item type="id" name="am_pm" />
+
+  <!-- layout/oppo_rename_dialog_layout.xml id -->
+  <item type="id" name="oppo_rename_dialog_edit" />
+  <!-- layout/oppo_preference.xml id -->
+  <item type="id" name="title" />
+  <item type="id" name="summary" />
+  <!-- layout/oppo_preference_dialog_edittext.xml id -->
+  <item type="id" name="edittext_container" />
+  <item type="id" name="widget_frame" />
+  <item type="id" name="oppo_option_menu_bar_mask_view" />
+  <!-- layout/oppo_flow_button.xml id -->
+  <item type="id" name="oppo_flow_bar" />
+  
+  <item type="id" name="touchsearch_popup_content_textview" />
+  <item type="id" name="touchsearch_popup_content_name" />
+  <item type="id" name="touchsearch_popup_content_textview1" />
+  <item type="id" name="touchsearch_popup_content_textview2" />
+  <item type="id" name="touchsearch_popup_content_textview3" />
+  <item type="id" name="touchsearch_popup_content_textview4" />
+  <item type="id" name="touchsearch_popup_content_textview5" />
+  <item type="id" name="ButtonPositive" />
+  <item type="id" name="ButtonNegative" />
+  <item type="id" name="ButtonNeutral" />
+  <item type="id" name="shortcuts_list" />
+
+
+  <item type="id" name="datePicker_btn" />
+  <item type="id" name="solar_btn" />
+  <item type="id" name="lunar_btn" />
+  <item type="id" name="notitle_dialog_message" />
+  <item type="id" name="name" />
+  <item type="id" name="status" />
+  <item type="id" name="expand_divider" />
+  <item type="id" name="expand_button" />
+  <item type="id" name="slider_group" />
+  <item type="id" name="increment" />
+  <item type="id" name="decrement" />
+  <item type="id" name="numberpicker_input" />
+  <item type="id" name="minute" />
+  <item type="id" name="divider" />
+  <item type="id" name="hour" />
+  <item type="id" name="amPm" />
+  <item type="id" name="time_pickers" />
+  <item type="id" name="pickers" />
+  <item type="id" name="month" />
+  <item type="id" name="day" />
+  <item type="id" name="year" />
+  <item type="id" name="calendar_view" />
+  <item type="id" name="timePicker" />
+  <item type="id" name="icon" />
+  <item type="id" name="text" />
+  <item type="id" name="prefs" />
+  <item type="id" name="headers" />
+  <item type="id" name="list_footer" />
+  <item type="id" name="prefs_frame" />
+  <item type="id" name="button_bar" />
+  <item type="id" name="back_button" />
+  <item type="id" name="skip_button" />
+  <item type="id" name="next_button" />
+  <item type="id" name="checkbox" />
+  <item type="id" name="search_button" />
+  <item type="id" name="search_src_text" />
+  <item type="id" name="search_edit_frame" />
+  <item type="id" name="search_plate" />
+  <item type="id" name="search_go_btn" />
+  <item type="id" name="search_close_btn" />
+  <item type="id" name="search_voice_btn" />
+  <item type="id" name="search_mag_icon" />
+  <item type="id" name="submit_area" />
+  <item type="id" name="edit_query" />
+  <item type="id" name="mode_normal" />
+  <item type="id" name="oppo_arrow_up" />
+  <item type="id" name="oppo_arrow_down" />
+  <item type="id" name="oppo_panel" />
+  <item type="id" name="oppo_buttonCopy" />
+  <item type="id" name="oppo_buttonCut" />
+  <item type="id" name="oppo_buttonPaste" />
+  <item type="id" name="oppo_buttonSelect" />
+  <item type="id" name="oppo_buttonSelectAll" />
+  <item type="id" name="oppo_inputmethodSwitch" />
+  <item type="id" name="oppo_buttonSearch" />
+  <item type="id" name="oppo_separator1" />
+  <item type="id" name="oppo_separator2" />
+  <item type="id" name="oppo_separator3" />
+  <item type="id" name="oppo_separator4" />
+  <item type="id" name="oppo_toolbar_group" />
+  <item type="id" name="oppo_toolbar_position_arrow" />
+  <item type="id" name="alertTitle" />
+  <item type="id" name="hard_keyboard_section" />
+  <item type="id" name="hard_keyboard_switch" />
+  <item type="id" name="titleDivider" />
+  <item type="id" name="oppo_stream_title" />
+  <item type="id" name="oppo_stream_icon" />
+  <item type="id" name="oppo_seekbar" />
+  <item type="id" name="visible_panel" />
+  <item type="id" name="oppo_charge_warring_text" />
+  <item type="id" name="action_mode_close_button" />
+  <item type="id" name="OppoOptionMenuBarGalleryItemTextView0" />
+  <item type="id" name="OppoOptionMenuBarGalleryItemTextView1" />
+  <item type="id" name="OppoOptionMenuBarGalleryItemTextView2" />
+  <item type="id" name="OppoOptionMenuBarGalleryItemTextView3" />
+  <item type="id" name="OppoOptionMenuBarItemIcon" />
+  <item type="id" name="OppoOptionMenuBarItemTitle" />
+  <item type="id" name="MajorOperationButtonPositive" />
+  <item type="id" name="MajorOperationButtonNegative" />
+  <item type="id" name="MajorOperationButtonNeutral" />
+  <item type="id" name="MajorOperationButtonMore" />
+  <item type="id" name="MajorOperationsGroup" />
+  <item type="id" name="MoreOperationsGroup" />
+  <item type="id" name="permission_prompt" />
+  <item type="id" name="save_panel" />
+  <item type="id" name="remember_cb" />
+  <item type="id" name="time" />
+  <item type="id" name="info" />
+  <item type="id" name="status_bar_latest_event_content" />
+  <item type="id" name="right_icon" />
+  <item type="id" name="text2" />
+  <item type="id" name="line1" />
+  <item type="id" name="chronometer" />
+  <item type="id" name="line3" />
+  <item type="id" name="big_picture" />
+  <item type="id" name="big_text" />
+  <item type="id" name="inbox_text0" />
+  <item type="id" name="inbox_text1" />
+  <item type="id" name="inbox_text2" />
+  <item type="id" name="inbox_text3" />
+  <item type="id" name="inbox_text4" />
+  <item type="id" name="inbox_text5" />
+  <item type="id" name="inbox_text6" />
+  <item type="id" name="overflow_divider" />
+  <item type="id" name="actions" />
+  <item type="id" name="inbox_more" />
+  <item type="id" name="action_divider" />
+  <item type="id" name="action0" />
+  <item type="id" name="option1" />
+  <item type="id" name="option2" />
+  <item type="id" name="option3" />
+  <item type="id" name="option4" />
+  <item type="id" name="oppo_power_shutdown_id" />
+  <item type="id" name="oppo_power_reboot_id" />
+  <item type="id" name="oppo_power_slient_text_id" />
+  <item type="id" name="oppo_power_vibrate_text_id" />
+  <item type="id" name="oppo_power_ring_text_id" />
+  <item type="id" name="oppo_power_airplane_text_id" />
+  <item type="id" name="oppo_search" />
+  <item type="id" name="home_back" />
+  <item type="id" name="search_vew" />
+  <item type="id" name="anim_search_vew" />
+  <item type="id" name="list_item_icon" />
+  <item type="id" name="MoreOperationArrowLeft" />
+  <item type="id" name="MoreOperationArrowRight" />
+  <item type="id" name="message" />
+  <item type="id" name="oppo_listview_scrollchoice_checkbox" />
+  <item type="id" name="emptybottle" />
+  
+  <item type="id" name="oppo_security_content" />
+  <item type="id" name="oppo_security_remember" />
+
+  <item type="id" name="oppo_volumn_disk" />
+  <item type="id" name="oppo_volumn_progress" />
+  <item type="id" name="oppo_volumn_icon" />
+  <item type="id" name="oppo_volumn_title" />
+  <item type="id" name="oppo_volume_unified_control" />
+  <item type="id" name="parentPanel" />
+  <item type="id" name="oppo_list_back_to_top_button" />
+  <item type="id" name="oppo_resolver_checkbox_option" />
+  <item type="id" name="oppo_text1" />
+  <item type="id" name="oppo_text2" />
+  <item type="id" name="oppo_resolver_grid" />
+  <item type="id" name="oppo_button_bar" />
+  <item type="id" name="oppo_button_always" />
+  <item type="id" name="oppo_button_once" />
+  
+ 
+</resources>

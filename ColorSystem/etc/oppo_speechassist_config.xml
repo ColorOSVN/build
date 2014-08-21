@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<!-- defalut value is true -->
+    <bool name="disable_kinect">false</bool>
+	<!-- defalut value is 30 -->
+    <integer name="camera_speech_shoot_cm">20</integer>
+    <integer name="camera_speech_beauty_shoot_cm">8</integer>
+	<!--  defalut value is 50 -->
+    <integer name="assist_speech_cm">50</integer>
+	<map name="voice_print">
+		<key name="4">
+			<value type="object">
+				<integer name="consist_threshold">33</integer>
+				<integer name="text_threshold">80</integer>
+				<string name="text">芝麻开门</string>
+				<integer name="index">1</integer>
+				<string name="voice_print_text_id">zhimakaimen</string>
+			</value>
+		</key>
+		<key name="3">
+			<value type="object">
+				<!-- from 0 to 100 -->
+				<integer name="consist_threshold">33</integer>
+				<!-- from 0 to 100 -->	
+				<integer name="text_threshold">80</integer>
+				<string name="text">小欧助手</string>
+				<integer name="index">2</integer>
+				<string name="voice_print_text_id">xiaoouzhushou</string>
+			</value>
+		</key>
+		<key name="2">
+			<value type="object">
+				<integer name="consist_threshold">33</integer>
+				<integer name="text_threshold">80</integer>
+				<string name="text">我是土豪</string>
+				<integer name="index">3</integer>
+				<string name="voice_print_text_id">woshituhao</string>
+			</value>
+		</key>
+				<key name="1">
+			<value type="object">
+				<integer name="consist_threshold">33</integer>
+				<integer name="text_threshold">83</integer>
+				<string name="text">千里共婵娟</string>
+				<integer name="index">4</integer>
+				<string name="voice_print_text_id">qianligongchanjuan</string>
+			</value>
+		</key>
+		<key name="0">
+			<value type="object">
+				<integer name="consist_threshold">33</integer>
+				<integer name="text_threshold">140</integer>
+				<string name="text">你存在我深深的脑海里</string>
+				<integer name="index">5</integer>
+				<string name="voice_print_text_id">nicunzaiwoshenshendenaohaili</string>
+			</value>
+		</key>
+	</map>
+
+</Config>

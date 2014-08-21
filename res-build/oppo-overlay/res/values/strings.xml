@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="android_upgrading_title">ColorOS is upgrading</string>
+    <string name="android_upgrading_apk">Optimizing app
+        <xliff:g id="number" example="123">%1$d</xliff:g> of
+        <xliff:g id="number" example="123">%2$d</xliff:g></string>
+    <string name="android_upgrading_starting_apps">Starting apps</string>
+    <string name="android_upgrading_complete">Finishing boot</string>
+</resources>

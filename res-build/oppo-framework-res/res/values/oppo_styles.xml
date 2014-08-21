@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/********************************************************************************
+ ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
+ ** VENDOR_EDIT, All rights reserved.
+ ** 
+ ** File: - oppo_styles.xml
+ ** Description: 
+ **     Style's params used to customize OPPO GUI
+ **     
+ ** Version: 1.0
+ ** Date: 2013-09-26
+ ** Author: Jianhui.Yu@Plf.Framework.SDK
+ ** 
+ ** =============================== Revision History: ============================
+ ** <author>                        <data>       <version>   <desc>
+ ** ==============================================================================
+ ** Jianhui.Yu@Plf.Framework.SDK    2013-09-26   1.0         Add file header
+ ********************************************************************************/
+-->
+<resources>
+
+    <eat-comment />
+
+<!-- ################################## Default Oppo Styles ################################## -->
+
+    <!-- AlertDialog -->
+    <style name="AlertDialog.OPPO"  parent="*android:AlertDialog">
+        <item name="android:fullDark">@drawable/oppo_alertdialog_content_full_background</item>
+        <item name="android:topDark">@drawable/oppo_alertdialog_title_bar</item>
+        <item name="android:centerDark">@drawable/oppo_alertdialog_content_background</item>
+        <item name="android:bottomDark">@drawable/oppo_alertdialog_list_area</item>
+        <item name="android:fullBright">@drawable/oppo_alertdialog_content_full_background</item>
+        <item name="android:topBright">@drawable/oppo_alertdialog_title_bar</item>
+        <item name="android:centerBright">@drawable/oppo_alertdialog_content_background</item>
+        <item name="android:bottomBright">@drawable/oppo_alertdialog_list_area</item>
+        <item name="android:bottomMedium">@drawable/oppo_alertdialog_button_background</item>
+        <item name="android:centerMedium">@drawable/oppo_alertdialog_content_background</item>
+        <item name="android:layout">@layout/oppo_alert_dialog</item>
+        <item name="*android:listLayout">@layout/oppo_select_dialog</item>
+        <item name="*android:listItemLayout">@layout/oppo_select_dialog_item</item>
+        <item name="*android:multiChoiceItemLayout">@layout/oppo_select_dialog_multichoice</item>
+        <item name="*android:singleChoiceItemLayout">@layout/oppo_select_dialog_singlechoice</item>
+        <item name="*android:progressLayout">@layout/oppo_progress_dialog</item>
+        <item name="*android:horizontalProgressLayout">@layout/oppo_alert_dialog_progress</item>   
+    </style>
+
+    <style name="AlertDialog.OPPO.Transparent">
+        <item name="android:fullDark">@color/oppo_transparent</item>
+        <item name="android:fullBright">@color/oppo_transparent</item>
+    </style>
+
+    <!-- Animation -->
+    <style name="Animation.OPPO" parent="android:Animation" />
+
+    <style name="Animation.OPPO.Activity" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/oppo_open_slide_exit</item>
+    </style>
+	
+	<style name="Animation.OPPO.Layer" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_close_slide_exit</item>
+    </style>
+    <style name="Animation.OPPO.Task" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_task_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_task_close_slide_exit</item>
+    </style>
+
+    <style name="Animation.OPPO.Dialog">
+        <item name="android:windowEnterAnimation">@anim/oppo_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/oppo_dialog_exit</item>
+    </style>  
+
+    <style name="Animation.OPPO.DropDownDown" parent="*android:Animation.DropDownDown" />
+
+    <style name="Animation.OPPO.DropDownUp">
+        <item name="android:windowEnterAnimation">@anim/oppo_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/oppo_shrink_fade_out_from_bottom</item>
+    </style>
+
+    <style name="Animation.OPPO.LockScreen" parent="*android:Animation.LockScreen">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/oppo_lock_screen_exit</item>
+    </style>
+
+    <style name="Animation.OPPO.OppoOptionMenuBar" parent="Animation.OPPO.Activity" />
+    
+    <!--Animation style for the current Activity used OppoOptionMenuBar Widget to start a new activity  -->
+    <style name="Animation.OPPO.OppoOptionMenuBar.CurrentActivity">
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_zoom_fade_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_push_down_exit</item>
+    </style>
+
+    <!-- Animation style for the new Activity -->
+    <style name="Animation.OPPO.OppoOptionMenuBar.NewActivity" />
+
+    <style name="Animation.OPPO.OppoTouchSearchView" />
+
+    <style name="Animation.OPPO.OppoTouchSearchView.PopupWindow">
+        <item name="android:windowEnterAnimation">@anim/oppo_fade_in_fast</item>
+        <item name="android:windowExitAnimation">@anim/oppo_fade_out_fast</item>
+    </style>
+
+    <style name="Animation.OPPO.RecentApplications" parent="*android:Animation.RecentApplications" />
+
+    <!-- Style for text view magnifier and text selection. -->
+    <style name="Animation.OPPO.TextMagnifier" />
+
+    <style name="Animation.OPPO.TextMagnifier.Popup">
+        <item name="android:windowEnterAnimation">@anim/oppo_text_magnifier_popup_show</item>
+        <item name="android:windowExitAnimation">@anim/oppo_text_magnifier_popup_hide</item>
+    </style>
+
+    <style name="Animation.OPPO.ZoomButtons" parent="*android:Animation.ZoomButtons" />
+
+    <!-- ButtonBar -->
+    <style name="ButtonBar.OPPO" parent="android:ButtonBar">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:divider">@drawable/oppo_alertdialog_button_diver</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0dip</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">0dip</item>
+        <item name="android:paddingEnd">0dip</item>
+    </style>
+
+    <!-- DialogWindowTitle -->
+    <style name="DialogWindowTitle.OPPO" parent="*android:DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.OPPO.DialogWindowTitle</item>
+    </style>
+
+    <!-- Preference -->
+    <style name="Preference.OPPO" parent="*android:Preference">
+        <item name="android:layout">@layout/oppo_preference</item>
+    </style>
+
+    <style name="Preference.OPPO.Category">
+        <item name="android:layout">@layout/oppo_preference_category_layout</item>
+        <!-- The title should not dim if the category is disabled, instead only the preference children should dim. -->
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <style name="Preference.OPPO.CheckBoxPreference">
+        <item name="android:widgetLayout">@layout/oppo_preference_widget_checkbox</item>
+    </style>
+
+    <style name="Preference.OPPO.DialogPreference">
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <style name="Preference.OPPO.DialogPreference.EditTextPreference">
+        <item name="android:dialogLayout">@layout/oppo_preference_dialog_edittext</item>
+    </style>
+
+    <style name="Preference.OPPO.DialogPreference.YesNoPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style>
+
+    <style name="Preference.OPPO.OppoSwitchPreference">
+        <item name="android:widgetLayout">@layout/oppo_preference_widget_opposwitch</item>
+        <item name="android:switchTextOn"></item>
+        <item name="android:switchTextOff"></item>
+        <item name="titleColor">@color/oppo_list_nosel_large_text_color</item>
+        <item name="summaryColor">@color/oppo_list_nosel_small_text_color</item>
+    </style>
+
+    <style name="Preference.OPPO.PreferenceScreen" />
+
+    <style name="Preference.OPPO.RingtonePreference">
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showSilent">true</item>
+        <item name="android:showDefault">true</item>
+    </style>
+
+    <style name="Preference.OPPO.SwitchPreference">
+        <item name="android:widgetLayout">@layout/oppo_preference_widget_switch</item>
+        <item name="android:switchTextOn"></item>
+        <item name="android:switchTextOff"></item>
+    </style>
+
+    <!-- PreferenceFragment -->
+    <style name="PreferenceFragment.OPPO" parent="*android:PreferenceFragment">
+        <item name="android:paddingLeft">@dimen/oppo_preference_fragment_padding_side</item>
+        <item name="android:paddingRight">@dimen/oppo_preference_fragment_padding_side</item>
+    </style>
+
+    <!-- SegmentedButton -->
+    <style name="SegmentedButton.OPPO" parent="*android:SegmentedButton">
+        <item name="android:background">@*android:drawable/btn_group_holo_dark</item>
+    </style>
+
+    <!-- TextAppearance -->
+    <style name="TextAppearance.OPPO" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/oppo_tab_and_toast_and_edittext_text_size_4</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.DialogWindowTitle">
+        <item name="android:textSize">@dimen/oppo_dialog_title_text_size</item>
+        <item name="android:textColor">@color/oppo_dialog_title_color</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Inverse" parent="android:TextAppearance.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+        <item name="android:textSize">@dimen/oppo_tab_and_toast_and_edittext_text_size_4</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.OppoLoading">
+        <item name="android:textSize">@dimen/oppo_loading_text_size</item>
+        <item name="android:textColor">@color/oppo_loading_text_color</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Medium" parent="android:TextAppearance.Medium" />
+  
+    <style name="TextAppearance.OPPO.Medium.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Small" parent="android:TextAppearance.Small">
+        <item name="android:textColor">@color/oppo_primary_text_dark</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Small.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.StatusBar.EventContent.Line2" parent="*android:TextAppearance.StatusBar.EventContent.Line2" />
+    <style name="TextAppearance.OPPO.StatusBar.EventContent.Info" parent="*android:TextAppearance.StatusBar.EventContent.Info" />
+    <style name="TextAppearance.OPPO.StatusBar.EventContent.Time" parent="*android:TextAppearance.StatusBar.EventContent.Time" />
+
+    <style name="TextAppearance.OPPO.Widget" parent="android:TextAppearance.Widget" />
+
+    <style name="TextAppearance.OPPO.Widget.ActionBar.Subtitle" parent="TextAppearance.OPPO.Small">
+        <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">@color/oppo_title_text_color_small</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.OPPO.Small.Inverse">
+        <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">@color/oppo_title_text_color_inverse</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionBar.Title" parent="TextAppearance.OPPO.Medium">
+        <item name="android:textSize">@dimen/oppo_action_bar_title_text_size</item>
+        <item name="android:textColor">@color/oppo_action_bar_title_text_color</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionBar.Title.Inverse" parent="TextAppearance.OPPO.Medium.Inverse">
+        <item name="android:textSize">@dimen/oppo_action_bar_title_text_size</item>
+        <item name="android:textColor">@color/oppo_action_bar_sub_title_textcolor_default_inverse</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionMode.Subtitle" parent="TextAppearance.OPPO.Small">
+        <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">@color/oppo_action_bar_sub_title_textcolor_default_inverse</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionMode.Subtitle.Inverse" parent="TextAppearance.OPPO.Small.Inverse">
+        <item name="android:textSize">@*android:dimen/action_bar_subtitle_text_size</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionMode.Title" parent="TextAppearance.OPPO.Medium">
+        <item name="android:textSize">@dimen/oppo_action_bar_title_text_size</item>
+        <item name="android:textColor">@color/oppo_title_text_color_inverse</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionMode.Title.Inverse" parent="TextAppearance.OPPO.Medium.Inverse">
+        <item name="android:textSize">@*android:dimen/action_bar_title_text_size</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.DropDownHint">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.DropDownItem">
+        <item name="android:textColor">@color/oppo_alert_dialog_large_text</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.PopupMenu" parent="*android:TextAppearance.Widget.PopupMenu">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.PopupMenu.Large">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/oppo_list_text_color_large</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.PopupMenu.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/oppo_list_text_color_small</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.TextView">
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.TabWidget" parent="android:TextAppearance.Widget">
+        <item name="android:textSize">@dimen/oppo_tab_and_toast_and_edittext_text_size_4</item>
+        <item name="android:textColor">@color/oppo_tab_indicator_holo_text</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.WindowTitle">
+        <item name="android:textColor">@color/oppo_title_text_color_large</item>
+        <item name="android:textSize">@dimen/oppo_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Widget -->
+    <style name="Widget.OPPO" parent="android:Widget" />
+
+    <style name="Widget.OPPO.ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:titleTextStyle">@style/TextAppearance.OPPO.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.OPPO.Widget.ActionBar.Subtitle</item>
+        <item name="android:background">@drawable/oppo_activity_title_bar</item>
+        <item name="android:backgroundStacked">@drawable/oppo_activity_title_bar</item>
+        <item name="android:backgroundSplit">@drawable/oppo_action_bar_bottom_background</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:progressBarStyle">@style/Widget.OPPO.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@style/Widget.OPPO.ProgressBar</item>
+        <item name="android:progressBarPadding">32dip</item>
+        <item name="android:height">?android:attr/actionBarSize</item>
+        <item name="android:itemPadding">8dip</item>
+        <item name="android:homeLayout">@layout/oppo_action_bar_home</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.MarkMode">
+        <item name="android:titleTextStyle">@style/TextAppearance.OPPO.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.OPPO.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:background">@drawable/oppo_actionmode_title_background</item>
+        <item name="android:backgroundStacked">@drawable/oppo_actionmode_title_background</item>		
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.Solid">
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle</item>
+        <item name="android:background">@*android:drawable/ab_solid_dark_holo</item>
+        <item name="android:backgroundStacked">@*android:drawable/ab_stacked_solid_dark_holo</item>
+        <item name="android:backgroundSplit">@*android:drawable/ab_bottom_solid_dark_holo</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:progressBarStyle">@android:style/Widget.Holo.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.Holo.ProgressBar</item>
+        <item name="android:progressBarPadding">32dip</item>
+        <item name="android:itemPadding">8dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:background">@*android:drawable/ab_solid_dark_holo</item>
+        <item name="android:backgroundStacked">@*android:drawable/ab_stacked_solid_dark_holo</item>
+        <item name="android:backgroundSplit">@*android:drawable/ab_bottom_solid_inverse_holo</item>
+        <item name="android:divider">@*android:drawable/list_divider_holo_dark</item>
+        <item name="android:progressBarStyle">@android:style/Widget.Holo.ProgressBar.Horizontal</item>
+        <item name="android:indeterminateProgressStyle">@android:style/Widget.Holo.ProgressBar</item>
+        <item name="android:progressBarPadding">32dip</item>
+        <item name="android:itemPadding">8dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.TabBar" parent="android:Widget.ActionBar.TabBar">
+        <item name="android:background">@drawable/oppo_actionbar_tab_bg</item>
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">2dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.TabText" parent="android:Widget.ActionBar.TabText">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/oppo_actionbar_tab_text_color</item>
+        <item name="android:textStyle">normal</item>		
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">3</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.TabView" parent="android:Widget.ActionBar.TabView">
+        <item name="android:background">@drawable/oppo_actionbar_tab_nomal_unselected</item>
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:paddingRight">6dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionMode" parent="*android:Widget.ActionMode">
+        <item name="android:background">?android:attr/actionModeBackground</item>
+        <item name="android:backgroundSplit">?android:attr/actionModeSplitBackground</item>
+        <item name="android:height">?android:attr/actionBarSize</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.OPPO.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.OPPO.Widget.ActionMode.Subtitle</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionButton" parent="android:Widget.ActionButton">
+        <item name="android:minWidth">@*android:dimen/action_button_min_width</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionButton.CloseMode">
+        <item name="android:background">@drawable/oppo_btn_cab_done_holo_dark</item>
+        <item name="android:minWidth">24dip</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingLeft">0dip</item> 
+        <item name="android:paddingRight">0dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionButton.Overflow">
+        <item name="android:src">@drawable/oppo_ic_menu_moreoverflow</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">@*android:string/action_menu_overflow_description</item>
+    </style>
+
+    <style name="Widget.OPPO.ActivityChooserView" parent="*android:Widget.ActivityChooserView" />
+
+    <style name="Widget.OPPO.AutoCompleteTextView" parent="android:Widget.EditText">
+        <item name="android:completionHintView">@*android:layout/simple_dropdown_hint</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@drawable/oppo_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/oppo_spinner_dropdown_background</item>
+        <item name="android:dropDownVerticalOffset">5dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item><!--  -->
+        <item name="android:textSize">@dimen/oppo_searchview_text_hint_size</item>
+        <item name="android:textColorHint">@color/oppo_searchview_text_hint_color_normal</item>
+        <item name="android:textColor">@color/oppo_searchview_text_color_normal</item>
+    </style>
+
+    <style name="Widget.OPPO.Button">
+        <item name="android:background">@drawable/oppo_btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textColor">@color/oppo_btn_text_color</item>
+        <item name="android:textSize">@dimen/oppo_actionbar_and_list_big_text_size_5</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:minHeight">42dip</item>
+    </style>
+
+    <style name="Widget.OPPO.Button.Small">
+        <item name="android:background">@drawable/oppo_btn_default_small</item>
+        <item name="android:textSize">@dimen/oppo_normal_content_text_size_3</item>
+        <item name="android:minHeight">29dip</item>
+        <item name="android:minWidth">44dip</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Widget.OPPO.Button.Inset">
+        <item name="android:background">@*android:drawable/button_inset</item>
+    </style>
+
+    <style name="Widget.OPPO.Button.Transparent">
+        <item name="android:background">@color/oppo_transparence</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.OPPO.Button.Borderless">
+        <item name="android:layout_height">@dimen/oppo_dialog_button_height</item>
+        <item name="android:background">@drawable/oppo_alert_dialog_button</item>
+        <item name="android:textSize">@dimen/oppo_dialog_button_text_size</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_button_text_color</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+    </style> 
+
+    <style name="Widget.OPPO.Button.Borderless.Small">
+    </style>
+
+    <style name="Widget.OPPO.CalendarView">
+        <item name="android:showWeekNumber">true</item>
+        <item name="android:firstDayOfWeek">1</item>
+        <item name="android:minDate">01/01/1900</item>
+        <item name="android:maxDate">12/31/2100</item>
+        <item name="android:shownWeekCount">6</item>
+        <item name="android:selectedWeekBackgroundColor">#330099FF</item>
+        <item name="android:focusedMonthDateColor">#FFFFFFFF</item>
+        <item name="android:unfocusedMonthDateColor">#66FFFFFF</item>
+        <item name="android:weekNumberColor">#33FFFFFF</item>
+        <item name="android:weekSeparatorLineColor">#19FFFFFF</item>
+        <item name="android:selectedDateVerticalBar">@*android:drawable/day_picker_week_view_dayline_holo</item>
+        <item name="android:weekDayTextAppearance">@*android:style/TextAppearance.Small.CalendarViewWeekDayView</item>
+        <item name="android:dateTextAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="Widget.OPPO.CompoundButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="Widget.OPPO.CompoundButton.CheckBox">
+        <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+    </style>
+
+    <style name="Widget.OPPO.CompoundButton.OppoSwitch">
+        <item name="android:track">@drawable/oppo_switch_track</item>
+        <item name="android:thumb">@drawable/oppo_switch_inner</item>
+        <item name="android:switchMinWidth">@dimen/oppo_switch_min_width</item>
+        <item name="android:switchPadding">@dimen/oppo_switch_padding</item>
+        <item name="thumbOuter">@dimen/oppo_switch_thumb_outer</item>
+        <item name="thumbInner">@dimen/oppo_switch_thumb_inner</item>
+        <item name="thumbCross">@dimen/oppo_switch_thumb_cross</item>
+        <item name="thumbPadding">@dimen/oppo_switch_thumb_padding</item>
+    </style>
+
+    <style name="Widget.OPPO.CompoundButton.RadioButton">
+        <item name="android:button">?android:attr/listChoiceIndicatorSingle</item>
+    </style>
+
+    <style name="Widget.OPPO.DropDownItem" parent="android:Widget.DropDownItem">
+        <item name="android:textAppearance">@style/TextAppearance.OPPO.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style> 
+
+    <style name="Widget.OPPO.DropDownItem.Spinner">
+        <item name="android:checkMark">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="android:textAppearance">?attr/textAppearanceDialogLarge</item>
+    </style>
+
+    <style name="Widget.OPPO.EditText" parent="android:Widget.EditText">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:minHeight">39dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ExpandableListView" parent="Widget.OPPO.ListView">
+        <item name="android:groupIndicator">@drawable/oppo_expander_group</item>
+        <item name="android:indicatorLeft">?android:attr/expandableListPreferredItemIndicatorLeft</item>
+        <item name="android:indicatorRight">?android:attr/expandableListPreferredItemIndicatorRight</item>
+        <item name="android:childDivider">@drawable/oppo_divider_horizontal_default</item>
+    </style>
+
+    <style name="Widget.OPPO.ExpandableListView.White" />
+
+    <style name="Widget.OPPO.GridView" parent="android:Widget.AbsListView">
+        <item name="android:listSelector">@drawable/oppo_grid_selector_background</item>
+        <item name="android:overScrollMode">always</item>
+    </style>
+
+    <style name="Widget.OPPO.ImageButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/oppo_btn_default</item>
+    </style>
+
+    <style name="Widget.OPPO.ImageWell" />
+
+    <style name="Widget.OPPO.KeyboardView" parent="android:Widget.KeyboardView">
+        <item name="android:background">@drawable/oppo_password_keyboard_background</item>
+        <item name="android:keyBackground">@drawable/oppo_btn_keyboard_key</item>
+        <item name="android:keyTextSize">22sp</item>
+        <item name="android:keyTextColor">#FF575757</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+    <style name="Widget.OPPO.ListPopupWindow" parent="android:Widget.ListPopupWindow">
+        <item name="android:dropDownSelector">@*android:drawable/list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/oppo_menu_dropdown_panel</item>
+        <item name="android:dropDownVerticalOffset">3dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+
+    <style name="Widget.OPPO.ListView" parent="android:Widget.AbsListView">
+        <item name="android:background">@drawable/oppo_listview_spring_background</item>
+        <item name="android:listSelector">@drawable/oppo_list_selector_background</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@drawable/oppo_divider_horizontal_default</item>
+        <item name="android:overScrollHeader">@color/oppo_transparence</item>
+        <item name="android:overScrollMode">always</item>
+    </style>
+
+    <style name="Widget.OPPO.ListView.DropDown">
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@drawable/oppo_divider_horizontal_default</item>  
+        <item name="android:overScrollMode">always</item>
+    </style>
+
+    <style name="Widget.OPPO.ListView.Menu">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="Widget.OPPO.ListView.White" parent="android:Widget.AbsListView">
+        <item name="android:listSelector">@drawable/oppo_list_selector_background</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoDatePicker" parent="android:Widget.DatePicker">
+        <item name="android:layout">@layout/oppo_date_picker</item>
+        <item name="android:calendarViewShown">false</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoListView" parent="Widget.OPPO.ListView">
+        <item name="android:background">@drawable/oppo_listview_spring_background</item>
+        <item name="android:listSelector">@drawable/oppo_list_selector_background</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@drawable/oppo_divider_horizontal_default</item>
+        <item name="springEnabled">true</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoNumberPicker" parent="*android:Widget.NumberPicker">
+        <item name="android:solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@*android:drawable/numberpicker_selection_divider</item>
+        <item name="android:background">@null</item> 
+        <item name="android:layout_width">@dimen/oppo_small_numberpicker_width</item>
+        <item name="selectionDividerHeight">2dip</item>
+        <item name="internalMinHeight">120dip</item>
+        <item name="internalMaxHeight">@dimen/oppo_numberpicker_height</item>
+        <item name="internalMinWidth">80dip</item>
+        <item name="internalMaxWidth">120dip</item>
+        <item name="numberTextSize">@dimen/oppo_numberpicker_big_textSize</item>
+        <item name="endTextSize">@dimen/oppo_numberpicker_big_textSize</item>
+        <item name="startTextSize">@dimen/oppo_numberpicker_small_textSize</item>
+        <item name="offsetHeight">0dip</item>
+        <item name="clipLength">@dimen/oppo_small_numberpicker_clipLength</item>
+        <item name="isBold">true</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoOptionMenuBar">
+        <item name="itemDefaultBackground">@drawable/oppo_optionmenubar_major_btn</item>
+        <item name="itemLeftBackground">@drawable/oppo_optionmenubar_major_btn_left</item>
+        <item name="itemMiddleBackground">@drawable/oppo_optionmenubar_major_btn_middle</item>
+        <item name="itemRightBackground">@drawable/oppo_optionmenubar_major_btn_right</item>
+        <item name="itemMoreIcon">@drawable/oppo_option_menu_bar_icon_more</item>
+        <item name="oppoItemMoreAnimation">@drawable/oppo_option_menu_bar_icon_more_normal_animation</item>
+        <item name="majorOperationBackground">@drawable/oppo_option_menu_bar_major_operation_background</item>
+        <item name="itemMajorTextColor">@color/oppo_option_menu_bar_text_color_selector</item> 
+        <item name="fillLayoutSpace">true</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoPagerTabStrip">
+        <item name="android:background">@drawable/oppo_pager_title_bg</item> 
+        <item name="pagerTitleSize">@dimen/oppo_pager_title_text_size</item>
+        <item name="pagerTitleColor">@color/oppo_pager_title_text_color</item>
+        <item name="pagerTitleColorHighlight">@color/oppo_pager_title_highligth_text_color</item>
+        <item name="textPadding">0dip</item>
+        <item name="bottomLine">@drawable/oppo_pager_title_line</item>
+        <item name="focusLine">@drawable/oppo_pager_title_line_selected</item>
+        <item name="focusLineWidth">@dimen/oppo_pager_focus_line_width</item>
+        <item name="android:paddingLeft">@dimen/oppo_pager_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/oppo_pager_horizontal_padding</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoScrollingTabContainerView">
+        <item name="oppoScrollingTabBackground">@drawable/oppo_scrollingtab_background</item>
+        <item name="moveTab">@drawable/oppo_actionbar_tab_move</item>
+        <item name="headSelected">@drawable/oppo_actionbar_tab_head_selected</item>
+        <item name="middleSelected">@drawable/oppo_actionbar_tab_middle_selected</item>
+        <item name="tailSelected">@drawable/oppo_actionbar_tab_tail_selected</item>
+        <item name="afterSelected">@drawable/oppo_actionbar_tab_after_selected</item>
+        <item name="beforeSelected">@drawable/oppo_actionbar_tab_before_selected</item>
+        <item name="nomalUnselected">@drawable/oppo_actionbar_tab_nomal_unselected</item>
+        <item name="oppoAnimateTabTextColor">@color/oppo_tab_text_color_pressed</item>
+        <item name="oppoAnimateTabTextSize">@dimen/oppo_actionbar_tab_textsize_selected</item>
+        <item name="oppoAnimateTabOutLength">@dimen/oppo_actionbar_animatetab_out_length</item>
+        <item name="oppoAnimateTabOffset">@dimen/oppo_actionbar_animatetab_offset</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoTimePicker" parent="*android:Widget.TimePicker">
+        <item name="android:layout">@layout/oppo_time_picker</item>
+    </style>
+
+    <style name="Widget.OPPO.PopupMenu" parent="Widget.OPPO.ListPopupWindow" />
+
+    <style name="Widget.OPPO.PopupWindow" parent="Widget.OPPO.ListPopupWindow" />
+
+    <style name="Widget.OPPO.PopupWindow.ActionMode">
+        <item name="android:popupBackground">@android:color/black</item>
+        <item name="android:popupAnimationStyle">@*android:style/Animation.PopupWindow.ActionMode</item>
+    </style>
+
+    <style name="Widget.OPPO.PreferenceFrameLayout">
+        <item name="*android:borderTop">0dip</item>
+        <item name="*android:borderBottom">0dip</item>
+        <item name="*android:borderLeft">0dip</item>
+        <item name="*android:borderRight">0dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_medium_white</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/oppo_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar.Inverse">
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_medium</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_large_white</item>
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar.Large.Inverse">
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_large</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_small_white</item>
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar.Small.Inverse">
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_small</item>
+    </style>
+
+    <style name="Widget.OPPO.ProgressBar.Small.Title">
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_small_titlebar</item>
+    </style>
+
+    <style name="Widget.OPPO.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/oppo_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/oppo_progress_horizontal</item>
+        <item name="android:minHeight">50dip</item>
+        <item name="android:maxHeight">50dip</item>
+        <item name="android:thumb">@drawable/oppo_seek_thumb</item>
+        <item name="android:thumbOffset">8dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item> 
+    </style>
+
+    <style name="Widget.OPPO.Spinner">
+        <item name="android:background">@drawable/oppo_btn_dropdown</item>
+        <item name="android:clickable">true</item>
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:dropDownSelector">@drawable/oppo_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/oppo_spinner_dropdown_background</item>
+        <item name="android:dropDownVerticalOffset">-10dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">39dp</item>
+        <item name="*android:popupPromptView">@*android:layout/simple_dropdown_hint</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.OPPO.Spinner.DropDown">
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="Widget.OPPO.Spinner.DropDown.ActionBar">
+        <item name="android:background">@*android:drawable/spinner_ab_holo_dark</item>
+    </style>
+
+    <style name="Widget.OPPO.StackView">
+        <item name="*android:resOutColor">@android:color/holo_blue_light</item>
+        <item name="*android:clickColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="Widget.OPPO.TabWidget" parent="*android:Widget.Holo.TabWidget">
+        <item name="android:textAppearance">@style/TextAppearance.OPPO.Widget.TabWidget</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:divider">@drawable/oppo_tabwiget_divider</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="*android:tabLayout">@layout/oppo_tab_indicator_holo</item>
+    </style>
+
+    <style name="Widget.OPPO.TextSuggestionsPopupWindow" parent="*android:Widget.TextSuggestionsPopupWindow" />
+
+    <style name="Widget.OPPO.TextView" parent="android:Widget.TextView" />
+
+    <style name="Widget.OPPO.TextView.ListSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/oppo_list_separator_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Widget.OPPO.WebTextView">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:completionHintView">@android:layout/simple_dropdown_item_1line</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@drawable/oppo_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/oppo_spinner_dropdown_background</item>
+        <item name="android:textCursorDrawable">@*android:drawable/text_cursor_holo_light</item>
+    </style>
+
+    <!-- WindowTitle -->
+    <style name="WindowTitle.OPPO" parent="*android:WindowTitle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.OPPO.WindowTitle</item>
+        <item name="android:shadowColor">#BB000000</item>
+        <item name="android:shadowRadius">0.1</item>
+        <item name="android:gravity">center</item>    
+    </style>
+
+    <!-- WindowTitleBackground -->
+    <style name="WindowTitleBackground.OPPO" parent="*android:WindowTitleBackground">
+        <item name="android:background">@drawable/oppo_activity_title_bar</item>
+    </style>
+
+    <!-- ======================== Custom Styles ======================== -->
+
+    <!-- OppoAlertDialogTextAppearance -->
+    <style name="OppoAlertDialogTextAppearance" />
+
+    <style name="OppoAlertDialogTextAppearance.Large" >
+        <item name="android:textSize">@dimen/oppo_list_text_size</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_large_text</item>
+    </style>
+
+    <style name="OppoAlertDialogTextAppearance.Small" >
+        <item name="android:textSize">@dimen/oppo_list_text_sub_size</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_small_text</item>
+    </style>
+
+    <!-- OppoDialogTextAppearance -->
+    <style name="OppoDialogTextAppearance" >
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="OppoDialogTextAppearance.Title">
+        <item name="android:textSize">@dimen/oppo_dialog_title_text_size</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_title_text_color</item>
+    </style>
+
+    <style name="OppoDialogTextAppearance.Content">
+        <item name="android:textSize">@dimen/oppo_dialog_content_text_size</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_content_text_color</item>
+    </style>
+
+    <!-- OppoListViewTextAppearance -->
+    <style name="OppoListViewTextAppearance" />
+
+    <style name="OppoListViewTextAppearance.Large" >
+        <item name="android:textSize">@dimen/oppo_list_text_size</item>
+        <item name="android:textColor">@color/oppo_list_text_color_large</item>
+    </style>
+
+    <style name="OppoListViewTextAppearance.Small" >
+        <item name="android:textSize">@dimen/oppo_list_text_sub_size</item>
+        <item name="android:textColor">@color/oppo_list_text_color_small</item>
+    </style>
+
+    <!-- OppoOptionMenuBarTextAppearance -->
+    <style name="OppoOptionMenuBarTextAppearance">
+        <item name="android:textSize">@dimen/oppo_option_menu_bar_major_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="OppoOptionMenuBarTextAppearance.More">
+        <item name="android:textSize">@dimen/oppo_option_menu_bar_more_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/oppo_option_menu_bar_more_text_color_selector</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- OppoPreferenceCategoryStyle -->
+    <style name="OppoPreferenceCategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/oppo_preference_fragment_item_padding_side</item>
+        <item name="android:layout_marginRight">@dimen/oppo_preference_fragment_item_padding_side</item>
+    </style>
+
+    <style name="OppoPreferenceCategoryStyle.Title">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:layout_height">@dimen/oppo_preference_category_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/oppo_preference_category_text_padding_left</item>
+        <item name="android:paddingTop">@dimen/oppo_common_category_text_padding_top</item>
+        <item name="android:paddingBottom">@dimen/oppo_common_category_text_padding_bottom</item>
+        <item name="android:textColor">@color/oppo_preference_category_text_color</item>
+        <item name="android:textSize">@dimen/oppo_preference_category_text_size</item>
+    </style>
+
+    <style name="OppoPreferenceCategoryStyle.Divider">
+        <item name="android:background">@drawable/oppo_catgory_title_bg</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <!-- OppoTextViewFloatPanelButton -->
+    <style name="OppoTextViewFloatPanelButton">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/oppo_actionbar_and_list_big_text_color</item>
+        <item name="android:textSize">@dimen/oppo_textview_floatpanel_button_text_size</item>   
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/oppo_textview_floatpanel_button_height</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/oppo_textview_floatpanel_button_bg</item>
+    </style>
+
+<!-- ################################## Black Oppo Styles ################################## -->
+
+    <!-- Preference -->
+    <style name="Preference.OPPO.Category.Black">
+        <item name="android:layout">@layout/oppo_preference_category_layout_black</item>
+        <!-- The title should not dim if the category is disabled,
+             instead only the preference children should dim. -->
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <!-- TextAppearance -->
+    <style name="TextAppearance.OPPO.Widget.ActionBar.Subtitle.Black"
+            parent="TextAppearance.OPPO.Medium.Inverse">
+        <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">#FFD7DCE3</item>
+    </style>
+
+    <style name="TextAppearance.OPPO.Widget.ActionBar.Title.Black"
+            parent="TextAppearance.OPPO.Medium.Inverse">
+        <item name="android:textSize">@dimen/oppo_action_bar_title_text_size</item>
+        <item name="android:textColor">#FFD7DCE3</item>
+    </style>
+
+    <!-- Widget -->
+    <style name="Widget.OPPO.ActionBar.MarkMode.Black">
+        <item name="android:background">@drawable/oppo_actionmode_title_background_black</item>
+        <item name="android:backgroundStacked">@drawable/oppo_actionmode_title_background_black</item>		
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.TabText.Black" >
+        <item name="android:textColor">@color/oppo_actionbar_tab_text_color_black</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.TabBar.Black" >
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
+    <style name="Widget.OPPO.ActionBar.Black">
+        <item name="android:background">@drawable/oppo_activity_title_bar_black</item>
+        <item name="android:backgroundStacked">@drawable/oppo_activity_title_bar_black</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.OPPO.Widget.ActionBar.Title.Black</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.OPPO.Widget.ActionBar.Subtitle.Black</item>
+    </style>
+
+    <style name="Widget.OPPO.AutoCompleteTextView.Black"> 
+        <item name="android:textColor">#d5dad6</item>
+    </style>
+
+    <style name="Widget.OPPO.CompoundButton.OppoSwitch.Black">
+        <item name="android:track">@drawable/oppo_switch_track_black</item>
+        <item name="android:thumb">@drawable/oppo_switch_inner_black</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoListView.Black">
+        <item name="android:background">@drawable/oppo_springlistviewbackground_black</item>
+        <item name="android:listSelector">@drawable/oppo_list_selector_background_black</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@drawable/oppo_divider_horizontal_dark_opaque_black</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoOptionMenuBar.Black">
+        <item name="itemDefaultBackground">@drawable/oppo_option_menu_bar_major_btn_black</item>
+        <item name="itemLeftBackground">@drawable/oppo_option_menu_bar_major_btn_left_black</item>
+        <item name="itemMiddleBackground">@drawable/oppo_option_menu_bar_major_btn_middle_black</item>
+        <item name="itemRightBackground">@drawable/oppo_option_menu_bar_major_btn_right_black</item>
+        <item name="itemMoreIcon">@drawable/oppo_option_menu_bar_icon_more_black</item>
+        <item name="oppoItemMoreAnimation">@drawable/oppo_option_menu_bar_icon_more_normal_black_animation</item>
+        <item name="majorOperationBackground">@drawable/oppo_option_menu_bar_major_operation_background_black</item>
+        <item name="itemMajorTextColor">@color/oppo_option_menu_bar_text_color_selector_black</item>
+    </style>
+
+    <style name="Widget.OPPO.OppoScrollingTabContainerView.Black">
+        <item name="moveTab">@drawable/oppo_actionbar_tab_move_black</item>
+        <item name="headSelected">@drawable/oppo_actionbar_tab_head_selected_black</item>
+        <item name="middleSelected">@drawable/oppo_actionbar_tab_middle_selected_black</item>
+        <item name="tailSelected">@drawable/oppo_actionbar_tab_tail_selected_black</item>
+        <item name="afterSelected">@drawable/oppo_actionbar_tab_nomal_unselected_black</item>
+        <item name="beforeSelected">@drawable/oppo_actionbar_tab_nomal_unselected_black</item>
+        <item name="nomalUnselected">@drawable/oppo_actionbar_tab_nomal_unselected_black</item>
+        <item name="oppoAnimateTabTextSize">@dimen/oppo_actionbar_tab_textsize_selected</item>
+        <item name="oppoAnimateTabTextColor">@color/oppo_actionbar_tab_text_color_selected_black</item>
+        <item name="oppoAnimateTabOutLength">0dip</item>
+        <item name="oppoAnimateTabOffset">0dip</item>
+    </style>
+
+    <!-- ======================== Custom Styles ======================== -->
+
+    <!-- OppoListViewTextAppearance -->
+    <style name="OppoListViewTextAppearance.Large.Black" >
+        <item name="android:textSize">@dimen/oppo_list_text_size_black</item>
+        <item name="android:textColor">@color/oppo_list_large_text_color_black</item>
+    </style>
+
+    <style name="OppoListViewTextAppearance.Small.Black" >
+        <item name="android:textSize">@dimen/oppo_list_text_sub_size_black</item>
+        <item name="android:textColor">@color/oppo_list_small_text_color_black</item>
+    </style>
+
+    <!-- OppoPreferenceCategoryStyle -->
+    <style name="OppoPreferenceCategoryStyle.Title.Black">
+        <item name="android:textColor">#ff0ec78b</item>
+    </style>
+
+    <style name="OppoPreferenceCategoryStyle.Divider.Black">
+        <item name="android:background">@drawable/oppo_catgory_title_bg_black </item>
+    </style>
+
+</resources>

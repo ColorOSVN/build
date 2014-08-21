@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*********************************************************************************
+ ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
+ ** COLOROS_EDIT, All rights reserved.
+ ** 
+ ** File: - oppo_volume_unified_control.xml
+ ** Description: 
+ **     Unified control setting for oppo volume panel
+ **     
+ ** Version: 1.0
+ ** Date: 2013-12-18
+ ** Author: Jianhui.Yu@Plf.SDK
+ ** 
+ ** =============================== Revision History: ============================
+ ** <author>                        <date>       <version>   <desc>
+ ** ==============================================================================
+ ** Jianhui.Yu@Plf.SDK              2013-12-18   1.0         Create this moudle
+ ********************************************************************************/
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/oppo_volume_panel_unified_control_height"
+        android:paddingLeft="@dimen/oppo_volume_panel_unified_control_padding_left" >
+
+    <CheckBox android:id="@+id/oppo_volume_unified_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:text="@string/oppo_volume_unified_control" />
+
+</RelativeLayout>

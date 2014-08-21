@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iconinfo>
+	<icon name="ic_launcher_oppo_contacts.png"  package="com.android.contacts"/>    
+	<icon name="ic_launcher_email.png"  package="com.android.email"/>
+	<icon name="ic_launcher_calcultor.png"  package="com.android.calculator2"/>
+    <icon name="ic_launcher_dialer.png" package="com.android.dialer"/>
+	<icon name="ic_launcher_browser.png" package="com.android.browser"/>
+	<icon name="ic_launcher_download.png"  package="com.android.browser"/>  
+	<icon name="ic_launcher_recorder.png" package="com.android.soundrecorder"/>
+	<icon name="ic_launcher_calender.png" package="com.android.calendar"/>
+	<icon name="ic_launcher_settings.png" package="com.android.settings"/>
+	<icon name="ic_launcher_smsmms.png" package="com.android.mms"/>
+	<icon name="ic_launcher_music.png"  package="com.oppo.music"/>
+	<icon name="ic_launcher_clock.png" package="com.oppo.alarmclock"/>
+	<icon name="ic_launcher_video.png" package="com.oppo.video"/>
+	<icon name="ic_launcher_camera.png" package="com.oppo.camera"/>
+	<icon name="ic_launcher_camera.png" package="com.android.gallery3d"/>
+	<icon name="ic_launcher_gallery3d.png" package="com.oppo.gallery3d"/>
+	<icon name="ic_launcher_locknow.png" package="com.oppo.LockNow"/>
+    <icon name="ic_launcher_locknow.png" package="com.android.systemui"/>
+	<icon name="ic_launcher_filemanager.png" package="com.oppo.filemanager"/>
+	<icon name="ic_launcher_recorder.png" package="oppo.multimedia.soundrecorder"/>
+	<icon name="ic_launcher_flash_light.png" package="com.oppo.flashlight"/>
+	<icon name="ic_launcher_compass.png" package="com.oppo.compass"/>
+	<icon name="ic_launcher_dialer.png" package="com.android.phone"/>
+
+	<icon name="ic_launcher_nearme_ota.png" package="com.oppo.ota"/>
+	<icon name="ic_launcher_weather.png" package="com.oppo.weather"/>
+	<icon name="ic_launcher_nearme_note.png" package="com.nearme.note"/>
+	<icon name="ic_launcher_speechassist.png" package="com.oppo.speechassist"/>
+	<icon name="ic_launcher_speechassist.png" package="com.oppo.speechassist.engine"/>
+	<icon name="ic_launcher_download.png" package="com.android.providers.downloads"/>
+	<icon name="ic_launcher_home.png" package="com.oppo.launcher"/>
+	<icon name="ic_launcher_nearme_market.png" package="com.oppo.market"/>
+	<icon name="ic_launcher_nearme_cloudservice.png" package="com.nearme.ocloud"/>
+	<icon name="ic_launcher_nearme_reader.png" package="com.oppo.reader"/>
+
+	<icon name="ic_launcher_nearme_gamecenter.png" package="com.nearme.gamecenter"/>
+	<icon name="ic_launcher_themespace.png" package="com.nearme.themespace"/>
+	<icon name="ic_launcher_feedback.png" package="com.nearme.feedback"/>
+	<icon name="ic_launcher_nearme_oppotribune.png" package="com.oppo.community"/>
+    <icon name="ic_launcher_calender.png" package="com.oppo.widget.calendar"/>
+    <icon name="ic_launcher_weather.png" package="com.oppo.widget.smallweather"/>
+    <icon name="ic_launcher_clock.png" package="com.oppo.widget.digitalclock"/>
+
+    <icon name="ic_launcher_locknow.png" package="com.oppo.LockScreenWeather"/>
+    <icon name="ic_launcher_locknow.png" package="com.oppo.travel"/>
+    <icon name="ic_launcher_locknow.png" package="com.oppo.LockScreenGlassBoard"/>
+    <icon name="ic_launcher_locknow.png" package="com.oppo.card"/>
+</iconinfo>

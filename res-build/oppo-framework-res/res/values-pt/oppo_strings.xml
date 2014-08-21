@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">Modificar permissões</string>
+    <string name="oppo_modify_pkg_perms_detail">Ir a Definições→Geral→Aplicações para modificar permissões.</string>
+    <string name="oppo_usb_selection">Por favor, prima para alterar as definições de USB</string>
+    <string name="oppo_usb_charge">Apenas carregar</string>
+    <string name="oppo_usb_storage">Dispositivo de armazenamento de massa</string>
+    <string name="oppo_usb_mtp">Dispositivo de multimédia (MTP)</string>
+    <string name="status_silent">Silencioso</string>
+    <string name="status_brightness">Brilho</string>
+    <string name="status_gps">GPS</string>
+    <string name="status_flight">Modo de voo</string>
+    <string name="status_hotspot">Wi-Fi Hotspot</string>
+    <string name="status_3g">3G</string>
+    <string name="status_autosync">Sincronização automática</string>
+    <string name="oppo_rename_dialog_title">Mudar o nome</string>
+    <string name="oppo_rename_dialog_btn_ok">OK</string>
+    <string name="oppo_rename_dialog_btn_cancel">Cancelar</string>
+    <string name="oppo_lunar_calendar_text">Calendário Lunar</string>
+    <string name="oppo_solar_calendar_text">Calendário Ocidental</string>
+    <string name="oppo_selecttext">Selecionar</string>
+    <string name="oppo_power_shutdown_text">Encerrar</string>
+    <string name="oppo_power_slient_text">Silêncio</string>
+    <string name="oppo_power_airplanemode_text">Modo de voo</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_permission_security_title">Aviso de segurança</string>
+    <string name="oppo_permission_security_label">está a tentar</string>
+    <string name="oppo_permission_settings_prompt">Por favor, configure as opções em \"Definições-Definições gerais-Segurança-Monitor de permissões\"</string>
+    <string name="oppo_permission_choice_label">"Recordar esta opción"</string>
+    <string name="oppo_reject_text">Rejeitar</string>
+    <string name="oppo_allow_text">Permitir</string>
+    <string name="action_mode_done">Concluído</string>
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - actionbar_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: VolumnPanel's params
+** 
+** Version: 1
+** Date created: 10:30:00,22/6/2012
+** Author: Kaiyu.Zhong@Plf.SDK
+** 
+** ******************************* Revision History: ***************************
+**      <author>                <date>          <desc>
+**      Kaiyu.Zhong             2013/11/18      create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <dimen name="oppo_volume_panel_minwidth">342dip</dimen>  
+    <dimen name="oppo_volume_panel_stream_padding_left">9dip</dimen>
+    <dimen name="oppo_volume_panel_seekbar_padding_left">8dip</dimen>
+    <dimen name="oppo_volume_panel_seekbar_padding_right">10dip</dimen>
+    <dimen name="oppo_volume_panel_seekbar_height">30dip</dimen>
+    <dimen name="oppo_volume_panel_text_padding_left">8dip</dimen>
+    <dimen name="oppo_volume_panel_unified_control_height">40dip</dimen>
+    <dimen name="oppo_volume_panel_unified_control_padding_left">10dip</dimen>
+
+    <dimen name="oppo_volume_panel_expand_button_padding_right">9dip</dimen>
+    <dimen name="oppo_volume_panel_expand_button_margin_left">-33dip</dimen>
+    <dimen name="oppo_volume_panel_height">74dip</dimen>
+
+    <dimen name="oppo_volume_icon_marginTop">42dip</dimen>
+    <dimen name="oppo_volumn_title_marginTop">85dip</dimen>
+    <dimen name="oppo_volumn_title_size">10sp</dimen>
+    <dimen name="oppo_volume_marginTop">98dip</dimen>
+    <dimen name="oppo_volumn_disk_margin_top">57dip</dimen>
+
+    <color name="oppo_volumn_title_color">#ffffff</color>
+
+    
+</resources>

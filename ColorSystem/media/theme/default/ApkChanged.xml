@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages> 
+
+	<package name="com.oppo.launcher"/>
+	<package name="com.android.mms"/>
+	<package name="com.android.settings"/>	
+	<package name="com.android.contacts"/>    
+	<package name="com.oppo.filemanager"/>
+	<package name="com.nearme.themespace"/>
+	<package name="com.android.systemui"/>
+	<package name="com.android.email"/> 
+	<package name="com.oppo.alarmclock"/>
+	<package name="com.android.phone"/> 
+	<package name="com.oppo.safe"/>
+	<package name="com.oppo.secure"/>
+	<package name="com.oppo.purebackground"/> 
+	<package name="com.oppo.backuprestore"/>
+	<package name="com.oppo.vistormode"/> 
+	<package name="com.oppo.holidaymode"/> 
+	<package name="com.oppo.trafficmonitor"/> 
+	<package name="com.oppo.powermanager"/> 
+	<package name="com.nearme.feedback"/> 
+	<package name="com.oppo.blacklist"/>
+	<package name="com.qualcomm.wfd.client"/>
+	<package name="com.oppo.usbselection"/>	
+	<package name="com.oppo.gesture"/>
+	<package name="com.android.packageinstaller"/>
+	<package name="com.oppo.gestureguide"/>
+	<package name="com.oppo.ota"/>
+
+	<package name="android"/>
+	<package name="com.android.certinstaller"/>
+	<package name="com.oppo.phonenoareainquire"/>
+	<package name="com.oppo.tag"/>
+    <package name="com.android.dialer"/> 
+    <package name="com.oppo.filetransfer"/> 
+
+</packages>

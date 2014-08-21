@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/********************************************************************************
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** All rights reserved.
+** VENDOR_EDIT
+** File: - oppo_smartwake_themes.xml
+** Description: 
+**     OppoSmartWakeImpl's params used to smart wake animation
+**     
+** Version: 1.0
+** Date: 2013/01/23
+** Author: Jianhui.Yu@Plf.MidWare.SDK
+** 
+** ******************************************************************************
+** <author>                     <data>      <version>    <desc>
+** ******************************************************************************
+** JinPeng@Plf.MidWare.SDK      2013/10/07  1.0          build this moudle
+********************************************************************************/
+-->
+
+<resources>
+    <integer name="oppo_smartwake_drawable_row">4</integer>
+    <integer name="oppo_smartwake_drawable_col">3</integer>
+</resources>
+

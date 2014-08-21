@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">Ubah izin</string>
+    <string name="oppo_modify_pkg_perms_detail">Ke Pengaturan→Normal→KelolaAplikasi, ubah izin!</string>
+    <string name="oppo_usb_selection">Pilihlah untuk mengubah pengaturan USB</string>
+    <string name="oppo_usb_charge">Hanya Mengisi Baterai</string>
+    <string name="oppo_usb_storage">Perangkat penyimpanan</string>
+    <string name="oppo_usb_mtp">Perangkat media (MTP)</string>
+    <string name="oppo_statusbar_key_swmgr">Pengelolaan program</string>
+    <string name="oppo_rename_dialog_title">Ubah nama</string>
+    <string name="oppo_rename_dialog_btn_ok">OK</string>
+    <string name="oppo_rename_dialog_btn_cancel">Batal</string>
+    <string name="oppo_lunar_calendar_text">Kalender hijriyah</string>
+    <string name="oppo_solar_calendar_text">Kalender syamsiah</string>
+    <string name="oppo_selecttext">Pilih</string>
+    <string name="oppo_whichApplication">"Pilih apl yang digunakan"</string>
+    <string name="oppo_alwaysUse">"Digunakan sebagai opsi standar."</string>
+    <string name="oppo_power_shutdown_text">Matikan</string>
+    <string name="oppo_power_vibrate_text">Getaran</string>
+    <string name="oppo_power_slient_text">"Diam"</string>
+    <string name="oppo_power_airplanemode_text">pesawat</string>
+    <string name="oppo_power_ring_text">Nada Dering</string>
+    <string name="oppo_power_reboot_text">Mulai ulang</string>
+    <string name="mmcmnc46001">China Unicom</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chunghwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_battery_charge_soc_fall">Pelepasan daya terlalu besar; Coba menutup aplikasi yang cepat menghabiskan daya!</string>
+    <string name="oppo_permission_security_title">"Peringatan keamanan"</string>
+    <string name="oppo_permission_security_label">Sedang mencoba</string>
+    <string name="oppo_permission_settings_prompt">Anda dapat mengatur di "Pengaturan-Umum-Keamanan-Pemantauan otoritas"</string>
+    <string name="oppo_permission_choice_label">Ghi nhớ lựa chọn này</string>
+    <string name="oppo_reject_text">Tolak</string>
+    <string name="oppo_allow_text">Izinkan</string>
+    <string name="action_mode_done">"Selesai"</string>
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_screen_shot_up_text">向上滑动1/3屏幕高度</string>
+    <string name="oppo_screen_shot_down_text">向下滑动1/3屏幕高度</string>
+</resources>

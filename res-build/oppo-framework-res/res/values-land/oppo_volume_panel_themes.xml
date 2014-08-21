@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - actionbar_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2014, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: VolumnPanel's params
+** 
+** Version: 1
+** Date created: 2014/2/25
+** Author: JinPeng@Plf.SDK
+** 
+** ******************************* Revision History: ***************************
+**      <author>                <date>          <desc>
+**      JinPeng                 2014/2/25       create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <dimen name="oppo_volume_marginTop">42dip</dimen>
+</resources>

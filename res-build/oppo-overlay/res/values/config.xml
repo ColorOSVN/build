@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*********************************************************************************
+ ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
+ ** COLOROS_EDIT, All rights reserved.
+ ** 
+ ** File: - config.xml
+ ** Description: 
+ **     config that overrides android for oppo
+ **     
+ ** Version: 1.0
+ ** Date: 2013-11-06
+ ** Author: Jianhui.Yu@Plf.SDK
+ ** 
+ ** =============================== Revision History: ============================
+ ** <author>                        <date>       <version>   <desc>
+ ** ==============================================================================
+ ** Jianhui.Yu@Plf.SDK              2013-11-06   1.0         Create this moudle
+ ********************************************************************************/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds.  Do not translate. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+        <item>com.google.android.location</item> <!-- EXP used -->
+        <item>com.baidu.map.location</item>      <!-- PRO used -->
+    </string-array>
+
+    <!-- Maximum number of grid columns permitted in the ResolverActivity
+         used for picking activities to handle an intent. -->
+    <integer name="config_maxResolverActivityColumns">3</integer>
+
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">10</integer>
+
+</resources>

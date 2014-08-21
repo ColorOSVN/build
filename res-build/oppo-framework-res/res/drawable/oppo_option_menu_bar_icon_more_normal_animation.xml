@@ -1,0 +1,12 @@
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/oppo_option_menu_bar_icon_more_normal_animation"
+    android:oneshot="true">
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation01" android:duration="375" />
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation02" android:duration="50" />
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation03" android:duration="50" />
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation04" android:duration="50" />
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation05" android:duration="50" />
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation06" android:duration="50" />
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation07" android:duration="50" />
+    <item android:drawable="@drawable/oppo_option_menu_bar_icon_more_normal_animation08" android:duration="50" />
+</animation-list>

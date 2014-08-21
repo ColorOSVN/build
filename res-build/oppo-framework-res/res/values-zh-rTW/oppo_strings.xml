@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="oppo_modify_pkg_perms">修改權限</string>
+    <string name="oppo_modify_pkg_perms_detail">前往設定 &gt; 一般 &gt; 修改應用程式權限</string>
+    <string name="oppo_usb_selection">選擇以更改 USB 設定</string>
+    <string name="oppo_usb_charge">僅充電</string>
+    <string name="oppo_usb_storage">大量儲存裝置</string>
+    <string name="oppo_usb_mtp">媒體裝置 (MTP)</string>
+    <!--statusbar-->
+    <string name="oppo_statusbar_key_swmgr">程式管理</string>
+    <string name="oppo_rename_dialog_title">重新命名</string>
+    <string name="oppo_rename_dialog_btn_ok">確定</string>
+    <string name="oppo_rename_dialog_btn_cancel">取消</string>
+    <string name="oppo_lunar_calendar_text">農曆</string>
+    <string name="oppo_solar_calendar_text">公曆</string>
+    <string name="oppo_selecttext">選取</string>
+    <string name="oppo_whichApplication">選擇要使用的應用</string>
+    <string name="oppo_alwaysUse" msgid="4583018368000610438">「預設用於執行此操作。」</string>
+    <!--yaolang for global actions -->
+    <string name="oppo_power_shutdown_text">關機</string>
+    <string name="oppo_power_vibrate_text">振動</string>
+    <string name="oppo_power_slient_text">靜音</string>
+    <string name="oppo_power_airplanemode_text">飛航模式</string>
+    <string name="oppo_power_ring_text">響鈴</string>
+    <string name="oppo_power_reboot_text">重啟</string>
+    <string name="oppo_volume_system_description">系統音量</string>
+
+    <!-- for Battery begin -->
+    <!-- add begin by daizhimin 2011-11-10 for english and chinese china display -->
+    <string name="mmcmnc46001">中國聯通</string>
+    <string name="mmcmnc46000">中國移動</string>
+    <string name="mmcmnc46002">中國移動</string>
+    <string name="mmcmnc46003">中國電信</string>
+	  <string name="mmcmnc46007">中國移動</string>
+    <string name="mmcmnc45406">數碼通</string>
+    <string name="mmcmnc45410">新世界傳動網</string>
+    <string name="mmcmnc45412">中國移動萬眾</string>
+    <string name="mmcmnc45415">數碼通</string>
+    <string name="mmcmnc45416">電訊盈科</string>
+    <string name="mmcmnc45419">電訊盈科</string>
+    <string name="mmcmnc45500">數碼通</string>
+    <string name="mmcmnc45501">澳門電訊</string>
+    <string name="mmcmnc45503">和記電訊</string>
+    <string name="mmcmnc45504">澳門電訊</string>
+    <string name="mmcmnc45505">和記電訊</string>
+    <string name="mmcmnc46601">遠傳電信</string>
+    <string name="mmcmnc46688">和信電訊</string>
+    <string name="mmcmnc46689">威寶電信</string>
+    <string name="mmcmnc46692">中華電信</string>
+    <string name="mmcmnc46693">東信電訊</string>
+    <string name="mmcmnc46697">台灣大哥大</string>
+    <string name="mmcmnc46699">泛亞電信</string>
+    <string name="oppo_permission_security_title">安全警告</string>
+    <string name="oppo_permission_security_label">正在嘗試</string>
+    <string name="oppo_permission_settings_prompt">您也可以在“個人訊息安全”里進行設定</string>
+    <string name="oppo_permission_choice_label">下次不再詢問</string>
+    <string name="oppo_reject_text">拒絕</string>
+    <string name="oppo_allow_text">允許</string>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2012/12/12, Added for thailand calendar support -->
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s年 %3$s %4$s日"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s年 %3$s日 %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s日, %4$s年"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s年 %4$s日"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s日 %3$s %4$s年"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s日 %3$s年 %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s年 %2$s %3$s日, %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s年 %2$s日 %3$s, %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s %2$s日, %3$s年, %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s %2$s年 %3$s日, %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s日 %2$s %3$s年, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s日 %2$s年 %3$s, %4$s"</string>
+    <!-- #endif VENDOR_EDIT-->
+    <string name="action_mode_done">"完成"</string>
+
+    <!-- JinPeng@Plf.Framework.SDK, 2013/08/03, Add for loading box -->
+    <string name="oppo_loading">加载中......</string>
+    <string name="oppo_edittext_search">搜索</string>
+    <string name="oppo_edittext_IME">輸入法</string>
+    <!-- Jianhui.Yu@Plf.SDK, 2013-12-23 : Add for Unified Volume Control -->
+    <string name="oppo_volume_unified_control">聲音大小統一控制</string>
+    <string name="oppo_resolver_ask_no_more">下次不再詢問</string>
+</resources>

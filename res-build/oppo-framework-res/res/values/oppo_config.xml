@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="oppo_config_statusBarIcons">
+       <item><xliff:g id="id">ime</xliff:g></item>
+       <item><xliff:g id="id">sync_failing</xliff:g></item>
+       <item><xliff:g id="id">sync_active</xliff:g></item>
+       <item><xliff:g id="id">gps</xliff:g></item>
+       <item><xliff:g id="id">bluetooth</xliff:g></item>
+       <item><xliff:g id="id">nfc</xliff:g></item>
+       <!-- M: Support "SystemUI Headset icon" feature. -->
+       <item><xliff:g id="id">headset</xliff:g></item>
+       <item><xliff:g id="id">tty</xliff:g></item>
+       <item><xliff:g id="id">speakerphone</xliff:g></item>
+       <item><xliff:g id="id">mute</xliff:g></item>
+       <item><xliff:g id="id">volume</xliff:g></item>
+       <item><xliff:g id="id">wifi</xliff:g></item>
+       <item><xliff:g id="id">cdma_eri</xliff:g></item>
+       <item><xliff:g id="id">phone_signal_second_sub</xliff:g></item>
+       <item><xliff:g id="id">data_connection</xliff:g></item>
+       <item><xliff:g id="id">phone_evdo_signal</xliff:g></item>
+       <item><xliff:g id="id">phone_signal</xliff:g></item>
+       <item><xliff:g id="id">battery</xliff:g></item>
+       <item><xliff:g id="id">alarm_clock</xliff:g></item>
+       <item><xliff:g id="id">secure</xliff:g></item>
+       <item><xliff:g id="id">clock</xliff:g></item>
+       <item><xliff:g id="id">visitor_mode</xliff:g></item>
+       <item><xliff:g id="id">holidy_mode</xliff:g></item>
+       <item><xliff:g id="id">power_save_mode</xliff:g></item>
+       <item><xliff:g id="id">touch_pad</xliff:g></item>
+	   <item><xliff:g id="id">voice_control</xliff:g></item>
+    </string-array>
+
+    <integer name="oppo_config_tomorrowLowBatteryWarningLevel">40</integer>
+    <integer name="oppo_config_lowBatteryVoltageWarningLevel">3300</integer>
+    <integer name="oppo_config_highBatteryVoltageWarningLevel">4500</integer>
+    <integer name="oppo_config_lowChargerVoltageWarningLevel">4400</integer>
+    <integer name="oppo_config_highChargerVoltageWarningLevel">5800</integer>
+
+    <integer name="config_longPressOnHomeBehavior_exp">3</integer>
+
+    <integer name="oppo_config_gestureInvalidateDuration">20</integer>
+    <integer name="oppo_config_gestureInvalidateFisrtFrameDelay">0</integer>
+    
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up.
+         The default is false. -->
+    <!-- Horn@OnLineRD.DeviceService, 2014-2-17, Modify for [new lid behavior, do not control sleep]  -->
+    <!--    <bool name="config_lidControlsSleep">true</bool>   -->
+    <!-- #else  //VENDOR_EDIT --> 
+         <bool name="config_lidControlsSleep">false</bool>  
+    <!-- #endif //VENDOR_EDIT -->
+
+
+</resources>

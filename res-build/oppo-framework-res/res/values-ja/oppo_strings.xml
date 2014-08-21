@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">発信時に番号を通知する</string>
+    <string name="oppo_modify_pkg_perms_detail">発信者番号表示に通信事業者のデフォルト値を使用する</string>
+    <string name="oppo_usb_selection">電話をすべて転送する</string>
+    <string name="oppo_usb_charge">電話をすべて {0} ￼に転送する</string>
+    <string name="oppo_usb_storage">無効</string>
+    <string name="oppo_usb_mtp">無効</string>
+    <string name="oppo_statusbar_key_swmgr">OK</string>
+    <string name="oppo_rename_dialog_title">ボイスメールの番号が変更されました。</string>
+    <string name="oppo_rename_dialog_btn_ok">ボイスメールの番号を変更できませんでした。"\n"この問題が解決しない場合は通信事業者の問い合わせてください。</string>
+    <string name="oppo_rename_dialog_btn_cancel">転送先番号を変更できませんでした。"\n"この問題が解決しない場合は通信事業者の問い合わせてください。</string>
+    <string name="oppo_lunar_calendar_text">現在の転送先番号設定の取得と保存ができませんでした。"\n"別の通信事業者に切り替えますか？</string>
+    <string name="oppo_solar_calendar_text">変更されていません。</string>
+    <string name="oppo_selecttext">ボイスメールサービスを選択</string>
+    <string name="oppo_whichApplication">利用可能なネットワーク</string>
+    <string name="oppo_alwaysUse">検索中...</string>
+    <string name="oppo_power_shutdown_text">ネットワークが見つかりません。</string>
+    <string name="oppo_power_vibrate_text">ネットワークを検索</string>
+    <string name="oppo_power_slient_text">ネットワークの検索中にエラーが発生しました。</string>
+    <string name="oppo_power_airplanemode_text">%s\u2026に登録中...</string>
+    <string name="oppo_power_ring_text">お使いのSIMカードではこのネットワークに接続できません。</string>
+    <string name="oppo_power_reboot_text">現在このネットワークに接続できません。しばらくしてから再試行してください。</string>
+    <string name="mmcmnc46001">ネットワークに登録されました。</string>
+    <string name="mmcmnc46000">通信事業者を選択する</string>
+    <string name="mmcmnc46002">利用可能なすべてのネットワークを検索する</string>
+    <string name="mmcmnc45406">自動的に選択</string>
+    <string name="mmcmnc45410">最適なネットワークを自動的に選択する</string>
+    <string name="mmcmnc45412">自動登録...</string>
+    <string name="mmcmnc45415">ネットワークモード</string>
+    <string name="mmcmnc45416">ネットワーク動作モードの変更</string>
+    <string name="mmcmnc45419">優先ネットワークモード</string>
+    <string-array name="mmcmnc45500">
+        <item>GSM/WCDMA 自動</item>
+        <item>WCDMAのみ</item>
+        <item>GSMのみ</item>
+        <item>GSM/WCDMA 優先</item>
+    </string-array>
+    <string-array name="mmcmnc45501">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string name="mmcmnc45503">データ通信を有効にする</string>
+    <string name="mmcmnc45504">モバイルネットワーク経由のデータアクセスを有効にする</string>
+    <string name="mmcmnc45505">データローミング</string>
+    <string name="mmcmnc46601">ローミング中にデータサービスに接続します</string>
+    <string name="mmcmnc46688">ローミング中にデータサービスに接続します</string>
+    <string name="mmcmnc46689">データローミングをOFFにしたままホームネットワークの外に出たためデータ接続が切断されました。</string>
+    <string name="mmcmnc46692">データローミングを許可すると、ローミング料金が発生する場合があります。</string>
+    <string name="mmcmnc46693">GSM/UMTSオプション</string>
+    <string name="mmcmnc46697">CDMAオプション</string>
+    <string name="mmcmnc46699">データ使用</string>
+    <string name="oppo_battery_charge_soc_fall">エリアメールSMSは無効になっています</string>
+    <string name="oppo_permission_security_title">メンテナンスは無効になっています</string>
+    <string name="oppo_permission_security_label">一般ニュース</string>
+    <string name="oppo_permission_settings_prompt">ビジネス金融ニュース</string>
+    <string name="oppo_permission_choice_label">スポーツニュース</string>
+    <string name="oppo_reject_text">エンターテインメント情報</string>
+    <string name="oppo_allow_text">ローカル</string>
+    <string name="action_mode_done">ローカルニュースは有効になっています</string>
+    <string name="oppo_wday_year_month_day" translatable="false">ローカルニュースは無効になっています</string>
+    <string name="oppo_wday_year_day_month" translatable="false">地域</string>
+    <string name="oppo_wday_month_day_year" translatable="false">地域ニュースは有効になっています</string>
+    <string name="oppo_wday_month_year_day" translatable="false">地域ニュースは無効になっています</string>
+    <string name="oppo_wday_day_month_year" translatable="false">国内</string>
+    <string name="oppo_wday_day_year_month" translatable="false">国内ニュースは有効になっています</string>
+    <string name="oppo_year_month_day_wday" translatable="false">国内ニュースは無効になっています</string>
+    <string name="oppo_year_day_month_wday" translatable="false">国際</string>
+    <string name="oppo_month_day_year_wday" translatable="false">国際ニュースは有効になっています</string>
+    <string name="oppo_month_year_day_wday" translatable="false">国際ニュースは無効になっています</string>
+    <string name="oppo_day_month_year_wday" translatable="false">言語</string>
+    <string name="oppo_day_year_month_wday" translatable="false">ニュースの言語の選択</string>
+</resources>

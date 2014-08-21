@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="oppo_modify_pkg_perms">Ändra behörigheter</string>
+    <string name="oppo_modify_pkg_perms_detail">Gå till Inställningar &gt; Normalt &gt; Hantera Applikationer, för att ändra behörigheter!</string>
+    <string name="oppo_usb_selection">Tryck för att ändra USB-inställningar</string>
+    <string name="oppo_usb_charge">Laddar endast</string>
+    <string name="oppo_usb_storage">Lagringsenhet</string>
+    <string name="oppo_usb_mtp">"Mediaenhet (MTP)"</string>
+    <string name="oppo_statusbar_key_swmgr">Hantera program</string>
+    <string name="oppo_rename_dialog_title">Döp om</string>
+    <string name="oppo_rename_dialog_btn_ok">OK</string>
+    <string name="oppo_rename_dialog_btn_cancel">Avbryt</string>
+    <string name="oppo_lunar_calendar_text">Månkalender</string>
+    <string name="oppo_solar_calendar_text">Solkalender</string>
+    <string name="oppo_selecttext">"Välj"</string>
+    <string name="oppo_whichApplication">Slutför med</string>
+    <string name="oppo_alwaysUse">Använd som standardalternativ</string>
+    <string name="oppo_power_shutdown_text">"Stäng av"</string>
+    <string name="oppo_power_vibrate_text">Vibrera</string>
+    <string name="oppo_power_slient_text">Tyst</string>
+    <string name="oppo_power_airplanemode_text">Flygplansläge</string>
+    <string name="oppo_power_ring_text">Ring</string>
+    <string name="oppo_power_reboot_text">Starta om</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">Nya världen</string>
+    <string name="mmcmnc45412">CMCC Personer</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">和記電訊</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_permission_security_title">"Säkerhetsvarning"</string>
+    <string name="permission_choice_label">Fråga inte igen</string>
+    <string name="oppo_permission_security_label">" försöker att "</string>
+    <string name="oppo_permission_settings_prompt">Ange alternativ på \"Inställningar -&gt; Allmänna inställningar -&gt; Säkerhet -&gt; Behörighetövervakare\"</string>
+    <string name="oppo_reject_text">Avvisa</string>
+    <string name="oppo_allow_text">"Tillåt"</string>
+    <string name="action_mode_done">"Klar"</string>
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - oppo_listview_themes.xml
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: ListView's params used to customize OPPO GUI
+** 
+** Version: 1
+** Date created: 10:30:00, 2010/09/10
+** Author: Luo Yaojun@Platform.SDK
+** 
+** ******************************* Revision History: ***************************
+** 		<author>	    		<date>			<desc>
+**   Luo Yaojun       2010/09/10    create
+** *****************************************************************************
+*/
+-->
+<resources>
+    
+    <color name="oppo_listview_background_color">#fff2f2f2</color>
+    
+    <!-- ListView's item -->
+    <!-- item's text -->
+    <dimen name="oppo_list_text_size">@dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
+    <dimen name="oppo_list_text_sub_size">@dimen/oppo_actionbar_and_list_small_text_size_2</dimen>
+
+    <color name="oppo_list_separator_text_color">@color/oppo_list_large_text_color_normal</color>
+    <color name="oppo_list_large_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>
+    <color name="oppo_list_large_text_color_selected">@color/oppo_actionbar_and_list_big_text_color</color>
+    <color name="oppo_list_small_text_color_normal">#878b8a</color>
+    <color name="oppo_list_small_text_color_selected">#878b8a</color>
+    <color name="oppo_list_text_color_disabled">@color/oppo_actionbar_and_list_big_text_color_disable</color>
+    <color name="oppo_alert_list_text_color">#ff000000</color>
+    <color name="oppo_alert_list_large_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>
+    <color name="oppo_alert_list_large_text_color_selected">@color/oppo_actionbar_and_list_big_text_color</color>
+    <color name="oppo_alert_list_small_text_color_normal">@color/oppo_actionbar_and_list_small_text_color</color>
+    <color name="oppo_alert_list_small_text_color_selected">@color/oppo_actionbar_and_list_small_text_color</color>
+    
+    <!-- add danjianjun  Theme.OPPO.Black-->
+    <color name="oppo_list_large_text_color_normal_black">#ffc8ccd2</color>
+    <color name="oppo_list_large_text_color_selected_black">#ffc8ccd2</color>
+    <color name="oppo_list_text_color_disabled_black">#ff535456</color>
+    <color name="oppo_list_small_text_color_normal_black">#ff85878a</color>
+    <color name="oppo_list_small_text_color_selected_black">#ff85878a</color>
+    <dimen name="oppo_list_text_size_black">@dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
+    <dimen name="oppo_list_text_sub_size_black">@dimen/oppo_actionbar_and_list_small_text_size_2</dimen>
+    <dimen name="oppo_list_item_normal_height_balck">64dp</dimen>
+
+    <!-- Jianhua.Lin Modify for the ScrollMultiChoiceMode, 2013-06-05 -->
+    <dimen name="oppo_listview_scrollchoice_left_offset">17dp</dimen>
+    <dimen name="oppo_listview_scrollchoice_right_offset">43dp</dimen>
+
+    <!-- LiangJing.Fu add for ListItem's margin -->
+    <dimen name="oppo_list_item_normal_height">64dp</dimen>	
+    <dimen name="oppo_list_item_divider_left_margin">12dp</dimen>
+    <dimen name="oppo_list_item_divider_right_margin">12dp</dimen>
+    <dimen name="oppo_list_item_text_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_text_category_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_text_category_padding_bottom">8dp</dimen>
+    <dimen name="oppo_list_item_text_category_height">33dp</dimen>
+    <dimen name="oppo_list_item_small_icon_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_small_icon_category_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_small_icon_between_text_margin">16dp</dimen>
+    <dimen name="oppo_list_item_small_icon_category_height">33dp</dimen>
+    <dimen name="oppo_list_item_small_icon_category_padding_bottom">8dp</dimen>
+    <dimen name="oppo_list_item_large_icon_left_margin">12dp</dimen>
+    <dimen name="oppo_list_item_large_icon_category_left_margin">15dp</dimen>
+    <dimen name="oppo_list_item_large_icon_category_padding_bottom">5dp</dimen>
+    <dimen name="oppo_list_item_large_icon_category_height">19dp</dimen>
+    <dimen name="oppo_list_item_large_icon_between_text_margin">11dp</dimen>
+    <dimen name="oppo_list_item_large_icon_padding_bottom">7dp</dimen>
+    <dimen name="oppo_list_item_large_icon_padding_top">7dp</dimen>    
+
+</resources>

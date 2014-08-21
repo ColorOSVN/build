@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="modify_pkg_perms">Τροποποίηση δικαιωμάτων</string>
+    <string name="oppo_usb_charge">Μόνο φόρτιση</string>
+    <string name="oppo_usb_storage">Συσκευή χώρου αποθήκευσης</string>
+    <string name="oppo_usb_mtp">"Συσκευή πολυμέσων (MTP)"</string>
+    <string name="usb_selection_processing">Επεξεργασία, παρακαλώ περιμένετε...</string>
+
+    <string name="oppo_rename_dialog_title">Μετονομασία</string>
+    <string name="oppo_rename_dialog_btn_ok">"OK"</string>
+    <string name="oppo_rename_dialog_btn_cancel">Ακύρωση</string>
+    <string name="oppo_lunar_calendar_text">Σεληνιακό ημερολόγιο</string>
+    <string name="oppo_solar_calendar_text">Ηλιακό ημερολόγιο</string>
+    <string name="oppo_selecttext">Επιλογή</string>
+    <string name="oppo_power_shutdown_text">"Απενεργοποίηση"</string>
+    <string name="oppo_power_vibrate_text">Δόνηση</string>
+    <string name="oppo_power_airplanemode_text">"Λειτουργία πτήσης"</string>
+    <string name="oppo_power_ring_text">Κουδούνισμα</string>
+    <string name="oppo_power_reboot_text">"Επανεκκίνηση"</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">Hutchison</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="sms_dialog_look">Προβολή</string>
+    <string name="sms_dialog_close">Ακύρωση</string>
+    <string name="oppo_permission_security_title">"Προειδοποίηση ασφαλείας"</string>
+    <string name="oppo_permission_security_label">Προσπαθώντας</string>
+    <string name="oppo_permission_choice_label">Kom ihåg mitt val</string>
+    <string name="action_mode_done">Ολοκληρώθηκε</string>
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s, %4$s"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s %3$s %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s %2$s, %3$s, %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s %2$s %3$s, %4$s"</string>
+</resources>

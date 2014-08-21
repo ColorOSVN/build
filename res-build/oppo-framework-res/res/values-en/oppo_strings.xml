@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="oppo_modify_pkg_perms">Modify permissions</string>
+    <string name="oppo_modify_pkg_perms_detail">Goto Settings→Normal→ManageApplication, modify permissions!</string>
+
+    <string name="oppo_usb_selection">Please select to change USB setting</string>
+    <string name="oppo_usb_charge">Only Charging</string>
+    <string name="oppo_usb_storage">Storage device</string>
+    <string name="oppo_usb_mtp">Media device (MTP)</string>
+    <string name="oppo_statusbar_key_swmgr">Program manager</string>
+
+    <string name="oppo_rename_dialog_title">Rename</string>
+    <string name="oppo_rename_dialog_btn_ok">OK</string>
+    <string name="oppo_rename_dialog_btn_cancel">Cancel</string>
+    <string name="oppo_lunar_calendar_text">Lunar calendar</string>
+    <string name="oppo_solar_calendar_text">Solar calendar</string>
+    <string name="oppo_selecttext">Select</string>
+    <string name="oppo_whichApplication">Complete action using</string>
+    <string name="oppo_alwaysUse">Use this as default option</string>
+    <string name="oppo_power_shutdown_text">Power off</string>
+    <string name="oppo_power_vibrate_text">Vibrate</string>
+    <string name="oppo_power_slient_text">Silent</string>
+    <string name="oppo_power_airplanemode_text">Flight</string>
+    <string name="oppo_power_ring_text">Ring</string>
+    <string name="oppo_power_reboot_text">Restart</string>
+    <string name="mmcmnc46001">UNICOM</string>
+    <string name="mmcmnc46000">CMCC</string>
+    <string name="mmcmnc46002">CMCC</string>
+    <string name="mmcmnc45406">Smartone-Vodafone</string>
+    <string name="mmcmnc45410">New World</string>
+    <string name="mmcmnc45412">CMCC Peoples</string>
+    <string name="mmcmnc45415">SmarTone Mobile Comms</string>
+    <string name="mmcmnc45416">PCCW</string>
+    <string name="mmcmnc45419">PCCW</string>
+    <string name="mmcmnc45500">SmarTone</string>
+    <string name="mmcmnc45501">CTM</string>
+    <string name="mmcmnc45503">3</string>
+    <string name="mmcmnc45504">CTM</string>
+    <string name="mmcmnc45505">3</string>
+    <string name="mmcmnc46601">FarEasTone</string>
+    <string name="mmcmnc46688">KG Telecom</string>
+    <string name="mmcmnc46689">VIBO</string>
+    <string name="mmcmnc46692">Chungwa</string>
+    <string name="mmcmnc46693">MobiTai</string>
+    <string name="mmcmnc46697">Taiwan Mobile</string>
+    <string name="mmcmnc46699">TransAsia</string>
+    <string name="oppo_battery_charge_soc_fall">Current consumption is too large; Please try to close the applications that may have caused this problem!</string>
+    <string name="action_mode_done">Done</string>
+    <string name="oppo_wday_year_month_day" translatable="false">"%1$s, %2$s年 %3$s %4$s日"</string>
+    <string name="oppo_wday_year_day_month" translatable="false">"%1$s, %2$s年 %3$s日 %4$s"</string>
+    <string name="oppo_wday_month_day_year" translatable="false">"%1$s, %2$s %3$s日, %4$s年"</string>
+    <string name="oppo_wday_month_year_day" translatable="false">"%1$s, %2$s %3$s年 %4$s日"</string>
+    <string name="oppo_wday_day_month_year" translatable="false">"%1$s, %2$s日 %3$s %4$s年"</string>
+    <string name="oppo_wday_day_year_month" translatable="false">"%1$s, %2$s日 %3$s年 %4$s"</string>
+    <string name="oppo_year_month_day_wday" translatable="false">"%1$s年 %2$s %3$s日, %4$s"</string>
+    <string name="oppo_year_day_month_wday" translatable="false">"%1$s年 %2$s日 %3$s, %4$s"</string>
+    <string name="oppo_month_day_year_wday" translatable="false">"%1$s %2$s日, %3$s年, %4$s"</string>
+    <string name="oppo_month_year_day_wday" translatable="false">"%1$s %2$s年 %3$s日, %4$s"</string>
+    <string name="oppo_day_month_year_wday" translatable="false">"%1$s日 %2$s %3$s年, %4$s"</string>
+    <string name="oppo_day_year_month_wday" translatable="false">"%1$s日 %2$s年 %3$s, %4$s"</string>
+    <string name="oppo_screen_shot_up_text">向上滑动1/3屏幕高度</string>
+    <string name="oppo_screen_shot_down_text">向下滑动1/3屏幕高度</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="android_upgrading_title">ColorOS 正在升級...</string>
+    <string name="android_upgrading_apk" msgid="7904042682111526169">"正在最佳化第 <xliff:g id="NUMBER_0">%1$d</xliff:g> 個應用程式 (共 <xliff:g id="NUMBER_1">%2$d</xliff:g> 個)"</string>
+    <string name="android_upgrading_starting_apps" msgid="451464516346926713">"正在啟動應用程式"</string>
+    <string name="android_upgrading_complete" msgid="1405954754112999229">"啟動完成"</string>
+</resources>

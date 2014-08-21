@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="android_upgrading_title">Đang nâng cấp ColorOS</string>
+    <string name="android_upgrading_apk" msgid="7904042682111526169">"Đang tối ưu hóa ứng dụng <xliff:g id="NUMBER_0">%1$d</xliff:g> trong tổng số <xliff:g id="NUMBER_1">%2$d</xliff:g>"</string>
+    <string name="android_upgrading_starting_apps" msgid="451464516346926713">"Khởi động ứng dụng"</string>
+    <string name="android_upgrading_complete" msgid="1405954754112999229">"Hoàn tất khởi động"</string>
+</resources>
